@@ -1,4 +1,4 @@
-import DiceRoller from '../DiceRoller'
+import { useState } from 'react'
 import { canIncrease, canDecrease, remaining } from '../../utils/pointBuy'
 
 const STAT_LABELS = { STR: 'Strength', DEX: 'Dexterity', CON: 'Constitution', INT: 'Intelligence', WIS: 'Wisdom', CHA: 'Charisma' }
@@ -6,6 +6,27 @@ const STAT_LABELS = { STR: 'Strength', DEX: 'Dexterity', CON: 'Constitution', IN
 function modifierStr(score) {
   const mod = Math.floor((score - 10) / 2)
   return mod >= 0 ? `+${mod}` : `${mod}`
+}
+
+function roll3d6() {
+  return [1, 2, 3].reduce(sum => sum + Math.ceil(Math.random() * 6), 0)
+}
+
+function StatRoller({ stat, value, onRoll }) {
+  const [rolling, setRolling] = useState(false)
+  function handleRoll() {
+    setRolling(true)
+    setTimeout(() => { onRoll(roll3d6()); setRolling(false) }, 300)
+  }
+  return (
+    <button
+      onClick={handleRoll}
+      disabled={rolling}
+      className="px-3 py-1 bg-stone-700 hover:bg-stone-600 border border-stone-500 rounded text-sm text-amber-100 disabled:opacity-50 transition-colors"
+    >
+      {rolling ? '...' : 'Roll'}
+    </button>
+  )
 }
 
 export default function AbilityScoresStep({ statsConfig, scores, method, onMethodChange, onScoreChange }) {
@@ -40,7 +61,7 @@ export default function AbilityScoresStep({ statsConfig, scores, method, onMetho
           {stats.map(stat => (
             <div key={stat} className="flex items-center gap-4">
               <span className="w-12 font-bold text-amber-200">{stat}</span>
-              <DiceRoller onRoll={v => onScoreChange(stat, v)} />
+              <StatRoller stat={stat} value={scores[stat]} onRoll={v => onScoreChange(stat, v)} />
               <span className="text-xl font-bold text-amber-100 w-8">{scores[stat] ?? '—'}</span>
               <span className="text-stone-400">({modifierStr(scores[stat] ?? 10)})</span>
               <span className="text-xs text-stone-500">{STAT_LABELS[stat]}</span>

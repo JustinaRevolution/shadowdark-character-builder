@@ -1,5 +1,5 @@
 export default function SpellsStep({ characterClass, spells, selectedSpells, onSpellsChange }) {
-  const tier1Spells = spells.filter(s => s.class === characterClass.name && s.tier === 1)
+  const tier1Spells = spells.filter(s => s.class.split(', ').includes(characterClass.name) && s.tier === 1)
   const limit = characterClass.spells_known_at_creation
 
   function toggleSpell(spell) {
