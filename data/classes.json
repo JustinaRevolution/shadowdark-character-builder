@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Fighter",
+    "hit_die": "d8",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Hauler",
+        "description": "Add your Constitution modifier (if positive) to your gear slots."
+      },
+      {
+        "name": "Weapon Mastery",
+        "description": "Choose a type of weapon. You gain +1 to attack and damage rolls with that weapon type. You also add half your level (rounded down) to attack and damage rolls with it."
+      },
+      {
+        "name": "Grit",
+        "description": "Choose Strength or Dexterity. You have advantage on checks using that stat to overcome an opposing physical force."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain Weapon Mastery with one additional weapon type"},
+      {"roll": "3-6", "effect": "+1 to melee and ranged attacks"},
+      {"roll": "7-9", "effect": "+2 to Strength, Dexterity, or Constitution stat"},
+      {"roll": "10-11", "effect": "Choose one kind of armor. You get +1 AC from that armor"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["2d6 x 5 gp to buy gear"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Priest",
+    "hit_die": "d6",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["club", "crossbow", "dagger", "mace", "longsword", "staff", "warhammer"],
+    "class_features": [
+      {
+        "name": "Languages",
+        "description": "You know either Celestial, Diabolic, or Primordial."
+      },
+      {
+        "name": "Turn Undead",
+        "description": "You know the turn undead spell. It doesn't count toward your number of known spells."
+      },
+      {
+        "name": "Deity",
+        "description": "Choose a god to serve who matches your alignment. You have a holy symbol for your god (it takes up no gear slots)."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "You can cast priest spells you know. You know two tier 1 spells of your choice from the priest spell list. Each time you gain a level, you choose new priest spells to learn according to the Priest Spells Known table."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain advantage on casting one spell you know"},
+      {"roll": "3-6", "effect": "+1 to melee or ranged attacks"},
+      {"roll": "7-9", "effect": "+1 to priest spellcasting checks"},
+      {"roll": "10-11", "effect": "+2 to Strength or Wisdom stat"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "WIS",
+    "spells_known_at_creation": 2,
+    "starting_gear": ["Holy symbol (no gear slots)", "2d6 x 5 gp to buy gear"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Thief",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor", "mithral chainmail"],
+    "weapon_proficiencies": ["club", "crossbow", "dagger", "shortbow", "shortsword"],
+    "class_features": [
+      {
+        "name": "Backstab",
+        "description": "If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down)."
+      },
+      {
+        "name": "Thievery",
+        "description": "You are adept at thieving skills and have the necessary tools of the trade secreted on your person (they take no gear slots). You are trained in the following tasks and have advantage on any associated checks: climbing, sneaking and hiding, applying disguises, finding and disabling traps, and delicate tasks such as picking pockets and opening locks."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain advantage on initiative rolls (reroll if duplicate)"},
+      {"roll": "3-5", "effect": "Your Backstab deals +1 dice of damage"},
+      {"roll": "6-9", "effect": "+2 to Strength, Dexterity, or Charisma stat"},
+      {"roll": "10-11", "effect": "+1 to melee and ranged attacks"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["Thieving tools (no gear slots)", "2d6 x 5 gp to buy gear"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Wizard",
+    "hit_die": "d4",
+    "armor_proficiencies": [],
+    "weapon_proficiencies": ["dagger", "staff"],
+    "class_features": [
+      {
+        "name": "Languages",
+        "description": "You know two additional common languages and two rare languages."
+      },
+      {
+        "name": "Learning Spells",
+        "description": "You can permanently learn a wizard spell from a spell scroll by studying it for a day and succeeding on a DC 15 Intelligence check. Whether you succeed or fail, you expend the spell scroll. Spells you learn this way don't count toward your known spells."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "You can cast wizard spells you know. You know three tier 1 spells of your choice from the wizard spell list. Each time you gain a level, you choose new wizard spells to learn according to the Wizard Spells Known table."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Make 1 random magic item of a type you choose"},
+      {"roll": "3-7", "effect": "+2 to Intelligence stat or +1 to wizard spellcasting checks"},
+      {"roll": "8-9", "effect": "Gain advantage on casting one spell you know"},
+      {"roll": "10-11", "effect": "Learn one additional wizard spell of any tier you know"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "INT",
+    "spells_known_at_creation": 3,
+    "starting_gear": ["2d6 x 5 gp to buy gear"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Evoker",
+    "hit_die": "d6",
+    "armor_proficiencies": [],
+    "weapon_proficiencies": ["dagger"],
+    "class_features": [
+      {
+        "name": "Language",
+        "description": "You know an extra language based on your alignment: Celestial (Lawful), Primordial (Neutral), or Diabolic (Chaotic)."
+      },
+      {
+        "name": "Blood Burn",
+        "description": "You can cast a lost spell by taking 1d4 unresistable damage per spell tier (this damage cannot be resisted except via evoker talents). You can still cast it even if you rolled a natural 1."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "You cast spells using your Constitution stat. The DC is 10 + the spell tier. If you fail a spellcasting check, you cannot recast that spell until you rest. On a natural 1, you lose all spells of that tier until you rest. You cannot use scrolls or wands."
+      },
+      {
+        "name": "Innate Spells",
+        "description": "At even levels, you gain an innate spell from a list based on your alignment: Priest spell list (Lawful), Wizard spell list (Neutral), or Witch spell list (Chaotic)."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "1/day, spend a luck token to negate blood burn damage"},
+      {"roll": "3-7", "effect": "+2 to Constitution stat or +1 to spellcasting checks"},
+      {"roll": "8-9", "effect": "Increase the damage die category of one evoker spell by one (maximum once per spell)"},
+      {"roll": "10-11", "effect": "Advantage on one innate spell (reroll if none eligible)"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to ability scores"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CON",
+    "spells_known_at_creation": 2,
+    "starting_gear": [],
+    "source": "Letters from the Dark Vol. 1: Out of Time"
+  },
+  {
+    "name": "Trickster",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["club", "crossbow", "dagger", "shortbow", "shortsword", "staff"],
+    "class_features": [
+      {
+        "name": "Language",
+        "description": "You know Sylvan."
+      },
+      {
+        "name": "Flabbergast",
+        "description": "When you roll initiative for combat, you can cast one spell before the first round starts. Doesn't work if you are surprised."
+      },
+      {
+        "name": "Prestige",
+        "description": "You have advantage on checks related to deception, impersonation, sleight of hand, and misdirection."
+      },
+      {
+        "name": "Repertoire",
+        "description": "Your grasp on fey magic is unpredictable. After you complete a rest, you roll 1d6 for each spell tier you have access to and gain that tier's randomly determined spell from the Spell Repertoire table."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "You cast trickster spells using Charisma. The DC is 10 + the spell tier. The critical failure threshold starts at natural 1 and increases by 1 on a success and by 3 on a failure, resetting after a critical fail or rest. On a critical fail, the spell fails, the spell is lost until you rest, and you must roll on the Fey Mishap table for that spell's tier."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "1/day, roll a mishap with advantage"},
+      {"roll": "3-7", "effect": "+2 to Charisma stat or +1 to trickster spellcasting checks"},
+      {"roll": "8-9", "effect": "+2 to checks to maintain focus"},
+      {"roll": "10-11", "effect": "+2 to Dexterity or Constitution stat"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CHA",
+    "spells_known_at_creation": 1,
+    "starting_gear": [],
+    "source": "Letters from the Dark Vol. 3: Tales of the Fey"
+  },
+  {
+    "name": "Vampire",
+    "hit_die": "d6",
+    "armor_proficiencies": ["all armour"],
+    "weapon_proficiencies": ["dagger", "longbow", "longsword", "staff"],
+    "class_features": [
+      {
+        "name": "Charm",
+        "description": "Make a CHA check (1d20 + CHA modifier) vs. the target's WIS score to charm a creature. You can have at most one charmed creature at a time."
+      },
+      {
+        "name": "Steal Life",
+        "description": "Make a melee attack using STR or DEX to bite a creature. You regain HP equal to your level + CON modifier and deal that same amount as damage."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "When you die, you turn into mist for 24 hours, then dissipate to truly die. While in mist form, Regenerate can restore 1 HP. Mist dissipates in sunlight. Duration increases by 24 hours on reroll."},
+      {"roll": "3-6", "effect": "Alter your appearance to look like any humanoid you have seen. Lasts 1 hour. Duration increases by 1 hour on reroll."},
+      {"roll": "7-9", "effect": "Gain a rat, bat, or raven familiar. You can see and hear through it. AC 5, 1 HP, cannot take part in combat. AC +1 and HP +1 on reroll."},
+      {"roll": "10-11", "effect": "+2 to Charisma stat"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": [],
+    "source": "Shadowdark: Necronomicon"
+  },
+  {
+    "name": "Revenant",
+    "hit_die": "d8",
+    "armor_proficiencies": ["all armour"],
+    "weapon_proficiencies": ["bastard sword", "crossbow", "greataxe", "mace", "warhammer"],
+    "class_features": [
+      {
+        "name": "Focused Target",
+        "description": "Mark a single target. You have advantage on attacks against that target, but everyone else has advantage on attacks against you."
+      },
+      {
+        "name": "Relentless Hunter",
+        "description": "You have advantage on Intelligence checks to track creatures and navigate."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your Focused Target increases by one additional creature"},
+      {"roll": "3-6", "effect": "Choose a creature you can see. You know its exact location while within 5 miles for 24 hours. Duration increases by 24 hours and range by 5 miles on reroll."},
+      {"roll": "7-9", "effect": "+1 to Initiative"},
+      {"roll": "10-11", "effect": "+1 to resist Turn Undead"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": [],
+    "source": "Shadowdark: Necronomicon"
+  }
+]
