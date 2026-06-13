@@ -1,0 +1,44 @@
+{
+  "weapons": [
+    {"name": "Bastard Sword", "damage": "d8/d10", "cost_gp": 10, "slots": 2, "properties": ["versatile"], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Club", "damage": "d4", "cost_gp": 0, "cost_note": "5 cp", "slots": 1, "properties": [], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Crossbow", "damage": "d6", "cost_gp": 8, "slots": 1, "properties": ["two-handed", "loading"], "range": "Far", "type": "Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Dagger", "damage": "d4", "cost_gp": 1, "slots": 1, "properties": ["finesse", "thrown"], "range": "Close/Near", "type": "Melee/Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Greataxe", "damage": "d8/d10", "cost_gp": 10, "slots": 2, "properties": ["versatile"], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Greatsword", "damage": "d12", "cost_gp": 12, "slots": 2, "properties": ["two-handed"], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Javelin", "damage": "d4", "cost_gp": 1, "cost_note": "5 sp", "slots": 1, "properties": ["thrown"], "range": "Close/Far", "type": "Melee/Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Longbow", "damage": "d8", "cost_gp": 8, "slots": 1, "properties": ["two-handed"], "range": "Far", "type": "Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Longsword", "damage": "d8", "cost_gp": 9, "slots": 1, "properties": [], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Mace", "damage": "d6", "cost_gp": 5, "slots": 1, "properties": [], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Shortbow", "damage": "d4", "cost_gp": 6, "slots": 1, "properties": ["two-handed"], "range": "Far", "type": "Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Shortsword", "damage": "d6", "cost_gp": 7, "slots": 1, "properties": [], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Spear", "damage": "d6", "cost_gp": 1, "cost_note": "5 sp", "slots": 1, "properties": ["thrown"], "range": "Close/Near", "type": "Melee/Ranged", "source": "Shadowdark RPG V1"},
+    {"name": "Staff", "damage": "d4", "cost_gp": 1, "cost_note": "5 sp", "slots": 1, "properties": ["two-handed"], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"},
+    {"name": "Warhammer", "damage": "d10", "cost_gp": 10, "slots": 1, "properties": ["two-handed"], "range": "Close", "type": "Melee", "source": "Shadowdark RPG V1"}
+  ],
+  "armor": [
+    {"name": "Leather Armor", "ac": 11, "ac_note": "11 + DEX mod", "cost_gp": 10, "slots": 1, "properties": [], "source": "Shadowdark RPG V1"},
+    {"name": "Chainmail", "ac": 13, "ac_note": "13 + DEX mod", "cost_gp": 60, "slots": 2, "properties": ["disadvantage on stealth", "disadvantage on swim"], "source": "Shadowdark RPG V1"},
+    {"name": "Plate Mail", "ac": 15, "cost_gp": 130, "slots": 3, "properties": ["no swimming", "disadvantage on stealth"], "source": "Shadowdark RPG V1"},
+    {"name": "Shield", "ac": 2, "ac_note": "+2 bonus to AC", "cost_gp": 10, "slots": 1, "properties": ["occupies one hand"], "source": "Shadowdark RPG V1"},
+    {"name": "Mithral (armor upgrade)", "ac": 0, "ac_note": "Reduces armor's slot requirement by 1", "cost_gp": 0, "cost_note": "x4 cost of base armor", "slots": -1, "properties": ["no stealth penalty", "no swim penalty"], "source": "Shadowdark RPG V1", "_note": "Mithral is an upgrade applied to metal armor; multiplies the base armor's cost by 4 and reduces gear slots by 1"}
+  ],
+  "adventuring_gear": [
+    {"name": "Arrows (20)", "cost_gp": 1, "slots": 1, "description": "Ammunition for shortbows or longbows.", "source": "Shadowdark RPG V1"},
+    {"name": "Backpack", "cost_gp": 2, "slots": 1, "description": "Holds all the gear you can carry. Don't lose it. First backpack is free to carry.", "source": "Shadowdark RPG V1"},
+    {"name": "Caltrops (one bag)", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "Tiny, triangle-shaped iron spikes. Living creatures who step on caltrops take 1 damage and can only move at half speed for 10 rounds.", "source": "Shadowdark RPG V1"},
+    {"name": "Crossbow Bolts (20)", "cost_gp": 1, "slots": 1, "description": "Ammunition for crossbows.", "source": "Shadowdark RPG V1"},
+    {"name": "Crowbar", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "Grants advantage on checks to pry open stuck objects.", "source": "Shadowdark RPG V1"},
+    {"name": "Flask or Bottle", "cost_gp": 0, "cost_note": "3 sp", "slots": 1, "description": "Glass containers that hold one draught of liquid.", "source": "Shadowdark RPG V1"},
+    {"name": "Flint and Steel", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "A small fire starter. With it, routine attempts to light a fire always succeed.", "source": "Shadowdark RPG V1"},
+    {"name": "Grappling Hook", "cost_gp": 1, "slots": 1, "description": "A rope anchor with three curved tines.", "source": "Shadowdark RPG V1"},
+    {"name": "Iron Spikes (10)", "cost_gp": 1, "slots": 1, "description": "Strong spikes. Each has a hole for threading rope. Can be hammered in with weapons or other iron spikes.", "source": "Shadowdark RPG V1"},
+    {"name": "Lantern", "cost_gp": 5, "slots": 1, "description": "Casts light up to a double near distance. Requires oil. Has a shutter to hide the light.", "source": "Shadowdark RPG V1"},
+    {"name": "Mirror", "cost_gp": 10, "slots": 1, "description": "A small, polished mirror.", "source": "Shadowdark RPG V1"},
+    {"name": "Oil, Flask", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.", "source": "Shadowdark RPG V1"},
+    {"name": "Pole", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "Wooden, 10 feet long.", "source": "Shadowdark RPG V1"},
+    {"name": "Rations (3)", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "One day of food and water supply for one person.", "source": "Shadowdark RPG V1"},
+    {"name": "Rope, 60'", "cost_gp": 1, "slots": 1, "description": "Hemp rope, 60 feet long.", "source": "Shadowdark RPG V1"},
+    {"name": "Torch", "cost_gp": 0, "cost_note": "5 sp", "slots": 1, "description": "Sheds light to a near distance. Burns for one hour of real time.", "source": "Shadowdark RPG V1"}
+  ]
+}

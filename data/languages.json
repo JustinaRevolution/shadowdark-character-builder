@@ -1,0 +1,16 @@
+[
+  {"name": "Common", "notes": "Spoken by most humanoids", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Dwarvish", "notes": "Spoken by dwarves", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Elvish", "notes": "Spoken by elves", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Giant", "notes": "Spoken by giants, ogres, trolls", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Goblin", "notes": "Spoken by bugbears, goblins, hobgoblins", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Merran", "notes": "Spoken by merfolk, sahuagin, sirens", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Orcish", "notes": "Spoken by orcs", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Reptilian", "notes": "Spoken by lizardfolk, viperians", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Sylvan", "notes": "Spoken by centaurs, dryads, faeries", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Thanian", "notes": "Spoken by minotaurs, beastmen, manticores", "rarity": "common", "source": "Shadowdark RPG V1"},
+  {"name": "Celestial", "notes": "Spoken by angels", "rarity": "rare", "source": "Shadowdark RPG V1"},
+  {"name": "Diabolic", "notes": "Spoken by demons and devils", "rarity": "rare", "source": "Shadowdark RPG V1"},
+  {"name": "Draconic", "notes": "Spoken by dragons", "rarity": "rare", "source": "Shadowdark RPG V1"},
+  {"name": "Primordial", "notes": "Spoken by elder things and elementals", "rarity": "rare", "source": "Shadowdark RPG V1"}
+]
