@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Dwarf",
+    "traits": [
+      {
+        "name": "Stout",
+        "description": "Start with +2 HP. Roll hit points per level with advantage."
+      }
+    ],
+    "languages": ["Common", "Dwarvish"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Elf",
+    "traits": [
+      {
+        "name": "Farsight",
+        "description": "You get a +1 bonus to attack rolls with ranged weapons or a +1 bonus to spellcasting checks."
+      }
+    ],
+    "languages": ["Common", "Elvish", "Sylvan"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Goblin",
+    "traits": [
+      {
+        "name": "Keen Senses",
+        "description": "You can't be surprised."
+      }
+    ],
+    "languages": ["Common", "Goblin"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Half-Orc",
+    "traits": [
+      {
+        "name": "Mighty",
+        "description": "You have a +1 bonus to attack and damage rolls with melee weapons."
+      }
+    ],
+    "languages": ["Common", "Orcish"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Halfling",
+    "traits": [
+      {
+        "name": "Stealthy",
+        "description": "Once per day, you can become invisible for 3 rounds."
+      }
+    ],
+    "languages": ["Common"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Human",
+    "traits": [
+      {
+        "name": "Ambitious",
+        "description": "You gain one additional talent roll at 1st level."
+      }
+    ],
+    "languages": ["Common", "one additional common language (player's choice, pg. 32)"],
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Gnome, Deep",
+    "traits": [
+      {
+        "name": "Gemsense",
+        "description": "You can detect the presence or absence (but not location) of precious gems within near. Penetrates up to 1' of material. Lead of any thickness blocks this sense."
+      }
+    ],
+    "languages": ["Common", "Sylvan"],
+    "source": "Letters from the Dark Vol. III: Tales of the Fey"
+  },
+  {
+    "name": "Gnome, Forest",
+    "traits": [
+      {
+        "name": "Critterspeech",
+        "description": "You can speak to and understand natural animals that are cat-sized or smaller."
+      }
+    ],
+    "languages": ["Common", "Sylvan"],
+    "source": "Letters from the Dark Vol. III: Tales of the Fey"
+  }
+]
