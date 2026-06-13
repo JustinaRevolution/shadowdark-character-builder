@@ -1,0 +1,13 @@
+{
+  "standard_array": [15, 14, 13, 12, 10, 8],
+  "_standard_array_note": "estimated — Shadowdark core uses 3d6 roll-in-order; this array is a common house rule fallback for point-buy style play",
+  "point_buy": {
+    "budget": 27,
+    "min": 8,
+    "max": 15,
+    "costs": { "8": 0, "9": 1, "10": 2, "11": 3, "12": 4, "13": 5, "14": 7, "15": 9 }
+  },
+  "roll_method": "3d6",
+  "_roll_method_note": "Core Shadowdark: roll 3d6 for each stat in order (STR, DEX, CON, INT, WIS, CHA)",
+  "stats": ["STR", "DEX", "CON", "INT", "WIS", "CHA"]
+}
