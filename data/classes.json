@@ -646,5 +646,185 @@
     "spells_known_at_creation": 2,
     "starting_gear": ["traveling clothes", "dark hooded robe", "moccasins", "staff or wooden weapon", "soft leather armor", "backpack", "water skin", "sprig of mistletoe", "clove of garlic", "small mallet", "8 wooden spikes", "30 ft rope", "small mirror", "tinderbox", "2 weeks of food rations"],
     "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wizard",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "knives", "staves", "short swords", "slings", "crossbows"],
+    "class_features": [
+      {
+        "name": "Arcane Study",
+        "description": "You begin play knowing 4 spells instead of the standard amount. Each time you gain a level, you may learn one additional spell from any tier you can already access, beyond your normal spell progression."
+      },
+      {
+        "name": "Scroll Reading",
+        "description": "You can attempt to read and activate a spell from a magic scroll. Make an INT check (DC 12). On a success, the spell fires at full effect. On a failure, the scroll is consumed and something goes wrong — a wild surge, wrong target, or reversed effect at the GM's discretion."
+      },
+      {
+        "name": "Ley Line Sense",
+        "description": "You can sense places of concentrated magical power within 1,000 feet — ley line nexuses, ancient ruins, sacred sites. You feel only that power is present, not its nature. When you rest at such a site, you recover your spellcasting ability as if you had completed a full night's rest."
+      },
+      {
+        "name": "Arcane Recognition",
+        "description": "You can sense whether a creature, person, or object is under magical influence — cursed, charmed, enchanted, or possessed. You do not automatically know the nature of the magic, only that it is present."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your magic is exceptionally potent: once per day, one spell you cast cannot be resisted by magic resistance or immunity"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn one additional spell of any tier you can already access"},
+      {"roll": "10-11", "effect": "+1 to all spell attack rolls"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "INT",
+    "spells_known_at_creation": 4,
+    "starting_gear": ["robe or cloak with hood", "boots", "soft leather armor", "belt", "backpack", "bedroll", "knife", "medium purse or satchel", "2 small sacks", "water skin", "100-page notebook", "3 quill pens", "2 bottles of ink", "4 candles", "small mirror", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Warlock",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["knives", "daggers", "staves", "morning stars", "maces", "swords", "crossbows"],
+    "class_features": [
+      {
+        "name": "Elemental Bond",
+        "description": "At creation, choose your elemental force: Air, Earth, Fire, or Water. This is your life sign and cannot be changed. You take half damage from your chosen element's natural manifestations (not from spells of that element). Your spells and abilities reflect your element's nature — fire warlocks leave scorched earth, water warlocks call mist and rain, etc."
+      },
+      {
+        "name": "Summon Elemental",
+        "description": "Once per day, you may call a lesser elemental of your chosen type. It manifests in 1d4 rounds, lasts 1 hour, and follows simple spoken commands. It fights for you, has HP equal to twice your level, and deals 1d6 damage. If slain, you cannot summon another until the next day. Greater elementals may be summoned at higher levels at GM discretion."
+      },
+      {
+        "name": "Sense the Elements",
+        "description": "You instinctively sense disturbances in your chosen element within 500 feet — an underground river, an approaching storm, a fire burning behind a locked door, a tremor building in the earth. You know direction and rough distance."
+      },
+      {
+        "name": "Elemental Speech",
+        "description": "You can speak with all elementals in their native tongue. Elementals of your own life sign regard you as a lesser sibling and will not attack you without extreme provocation or magical compulsion. You have a 20% chance to persuade them to stand down or assist you even when hostile."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your elemental summon is now usable twice per day and lasts until dismissed or slain"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "+1 to all spell attack rolls"},
+      {"roll": "10-11", "effect": "Once per day, declare immunity to your chosen element before a single attack or effect resolves"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "INT",
+    "spells_known_at_creation": 3,
+    "starting_gear": ["two sets of clothing", "hooded robe in elemental colors (air=white, earth=brown, fire=red, water=blue)", "boots", "backpack", "bedroll", "knife", "water skin", "flint and steel", "4 candles", "small mirror", "elemental focus item (diamond or sapphire=air, onyx or salt crystal=earth, ruby or topaz=fire, emerald or pearl=water)", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Witch",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "knives", "throwing knives", "staves", "swords", "crossbows"],
+    "class_features": [
+      {
+        "name": "Dark Pact",
+        "description": "Your power comes from a demon lord, alien intelligence, or slumbering Old One who has anchored an essence fragment to your body. Choose 2 Patron Gifts at creation: (1) Poison Immunity — immune to poison, toxins, and disease; (2) Iron Will — +2 to all saves vs magic and charm; (3) True Sight — automatically see invisible creatures and sense active magic within 60 feet; (4) Unnatural Vigor — +6 max HP and recover 1 extra HP whenever you rest; (5) Dark Flight — once per day, fly for up to 1 hour at normal movement speed; (6) Supernatural Strength — +2 STR and unarmed strikes deal 1d6 damage."
+      },
+      {
+        "name": "Demon Familiar",
+        "description": "A demon has anchored itself to a host animal (cat, dog, raven, or rat) that serves as your familiar. It is intelligent, can speak, advises you, and lets you share its senses within 1 mile. The familiar can act independently to scout or cause minor mischief. If your familiar is slain, your Patron Gifts go dormant for 1d6 days until a replacement is conjured."
+      },
+      {
+        "name": "Witch's Hex",
+        "description": "Once per day, you may curse one creature you can see. They must make a WIS save (DC 12) or suffer -2 to all attack rolls and saving throws for 1 hour. This does not require a spell slot and can be used in addition to casting a spell."
+      },
+      {
+        "name": "Dark Sight",
+        "description": "You see in total darkness as clearly as in dim candlelight. You have +2 to saves against fear and charm effects."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain a third Patron Gift from the Dark Pact list"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Your Witch's Hex can now be used twice per day"},
+      {"roll": "10-11", "effect": "+1 to all spell attack rolls"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "INT",
+    "spells_known_at_creation": 4,
+    "starting_gear": ["two sets of dark clothing", "backpack", "bedroll", "4 small sacks", "2 large sacks", "water skin", "flint and steel", "4 candles", "4 black candles", "wooden cross", "4 wooden stakes", "small mallet", "small mirror", "4 sticks of incense", "4 cloves of garlic", "silver dagger", "knife"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Diabolist",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["knives", "daggers", "throwing knives", "small axes", "staves", "swords", "crossbows"],
+    "class_features": [
+      {
+        "name": "Ward Mastery",
+        "description": "You create magical wards — ancient mystic symbols inscribed in specific materials and charged with a spoken power word that hold magic until triggered. You begin knowing: Silent Alarm, Sound Alarm, Protection ward, and three Condition wards of your choice (Agony, Blind, Charm, Cold, Confusion, Dark, Fear, or Sleep). Wards fire when touched or disturbed. You can maintain a number of active wards equal to twice your level. Between adventures, you can ward doors, containers, rooms, or entire campsites."
+      },
+      {
+        "name": "Ward Immunity",
+        "description": "You are immune to any magical effects produced by wards you personally created. You can touch, move, and deactivate your own wards without triggering them. This immunity does not extend to other Diabolists' wards."
+      },
+      {
+        "name": "Runic Lore",
+        "description": "You read and write the ancient rune alphabet fluently and can identify rune weapons on sight. You can determine whether any object or area bears active ward magic, read most magic scrolls (though you cannot cast spell magic from them), and recognize magic circles and determine their general purpose and whether they are active."
+      },
+      {
+        "name": "Ward Arsenal",
+        "description": "You may prepare wards in advance and carry them unenergized — harmless symbols until you speak the power word and expend energy to activate them. In the field, activating a prepared ward takes only seconds. The Diabolist who sets a trap is often long gone before it fires."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Learn 3 new ward types and your wards are harder to resist (+1 DC on saves against your wards)"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn 2 new ward types of your choice"},
+      {"roll": "10-11", "effect": "You can now create Area Affect wards that trigger on every creature within a radius, not only the one who disturbs the warded object"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "cloak with hood", "boots", "belt", "bedroll", "backpack", "large purse or satchel", "5 small sacks", "2 medium sacks", "water skin", "6 small glass vials with cork tops", "6 candles", "half pound of beeswax", "small pouches of gold dust and silver dust", "100-page notebook", "3 quill pens", "8 small paint brushes", "3 mixing bowls", "2 bottles of ink", "4 sticks of chalk", "2 whittling knives", "wood carving tools", "small mirror", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summoner",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "short swords", "knives", "crossbows"],
+    "class_features": [
+      {
+        "name": "Circle Magic",
+        "description": "You create magic circles — elaborate ritual diagrams drawn in specific materials that summon supernatural creatures or protect those standing within them. You begin knowing all protection circles (Simple, Superior, and protection from Demons, Elementals, Undead, Magic, and Evil) and the following summoning circles: Animals, Insects, and one additional summoning circle of your choice. Power circles — the most potent and dangerous — must be discovered or deciphered through adventure."
+      },
+      {
+        "name": "Binding",
+        "description": "When you successfully summon a creature, it must win a battle of wills (creature rolls WIS vs your INT, DC equal to your level + 10) or be bound to obey you for up to 1 hour per level. Bound creatures follow your spoken commands but interpret them literally — precision matters. If you step outside your protective circle, bound creatures may immediately attempt to break free. Greater supernatural beings receive significant bonuses to resist binding."
+      },
+      {
+        "name": "Circle Sense",
+        "description": "You can identify magic circles on sight, determine whether they are active or dormant, and read their general type and purpose. You have a base 20% chance (improved with INT bonus and level) to fully decipher a previously unknown circle found in ruins or ancient texts, potentially adding it to your known circles."
+      },
+      {
+        "name": "Power Words",
+        "description": "You know all 19 power words of ancient magic — the same arcane language used by Diabolists, applied to circles rather than wards. You cannot create wards, but your mastery of power words grants you +2 to saves against magical circles, wards, and rune magic created by others."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "You have deciphered one Power Circle (work with GM to choose); your Binding DC increases by 2"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn one additional summoning circle of your choice"},
+      {"roll": "10-11", "effect": "+1 to all saves vs magic, possession, and mind control of all kinds"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "robe or cloak with hood", "boots", "soft leather gloves", "belt", "bedroll", "backpack", "large purse or satchel", "4 small sacks", "2 medium sacks", "1 large sack", "water skin", "100-page notebook", "3 quill pens", "2 bottles of ink (different colors)", "4 sticks of graphite", "4 sticks of chalk", "4 candles", "small mirror", "silver coin worn as amulet", "4 cloves of garlic", "4 wooden stakes", "small hammer or mallet", "2 iron spikes", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
   }
 ]
