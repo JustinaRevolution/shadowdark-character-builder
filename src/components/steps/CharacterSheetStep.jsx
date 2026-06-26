@@ -13,8 +13,8 @@ function StatBox({ stat, score }) {
   )
 }
 
-export default function CharacterSheetStep({ character, onNameChange, onStartOver }) {
-  const { name, ancestry, ancestryTrait, characterClass, alignment, background, abilityScores, gear, spells } = character
+export default function CharacterSheetStep({ character, onNameChange, onLevelChange, onStartOver }) {
+  const { name, level, ancestry, ancestryTrait, characterClass, alignment, background, abilityScores, gear, spells } = character
   const displayTraits = ancestry?.chooseOneTrait
     ? (ancestryTrait ? [ancestryTrait] : [])
     : (ancestry?.traits ?? [])
@@ -40,16 +40,29 @@ export default function CharacterSheetStep({ character, onNameChange, onStartOve
         </div>
       </div>
 
-      {/* Name */}
-      <div>
-        <label className="block text-sm text-stone-400 mb-1">Character Name</label>
-        <input
-          type="text"
-          value={name}
-          onChange={e => onNameChange(e.target.value)}
-          placeholder="Enter name..."
-          className="w-full bg-stone-800 border border-stone-600 rounded px-3 py-2 text-amber-100 text-xl font-semibold placeholder-stone-600 focus:outline-none focus:border-amber-500 print:border-stone-400 print:text-black"
-        />
+      {/* Name + Level */}
+      <div className="flex gap-3 items-end">
+        <div className="flex-1">
+          <label className="block text-sm text-stone-400 mb-1">Character Name</label>
+          <input
+            type="text"
+            value={name}
+            onChange={e => onNameChange(e.target.value)}
+            placeholder="Enter name..."
+            className="w-full bg-stone-800 border border-stone-600 rounded px-3 py-2 text-amber-100 text-xl font-semibold placeholder-stone-600 focus:outline-none focus:border-amber-500 print:border-stone-400 print:text-black"
+          />
+        </div>
+        <div className="w-24">
+          <label className="block text-sm text-stone-400 mb-1">Level</label>
+          <input
+            type="number"
+            min="1"
+            max="20"
+            value={level}
+            onChange={e => onLevelChange(Math.max(1, Math.min(20, Number(e.target.value))))}
+            className="w-full bg-stone-800 border border-stone-600 rounded px-3 py-2 text-amber-100 text-xl font-semibold text-center focus:outline-none focus:border-amber-500 print:border-stone-400 print:text-black"
+          />
+        </div>
       </div>
 
       {/* Identity row */}

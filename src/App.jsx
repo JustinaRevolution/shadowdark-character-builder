@@ -166,6 +166,7 @@ export default function App() {
           <CharacterSheetStep
             character={character}
             onNameChange={n => setField('name', n)}
+            onLevelChange={n => setField('level', n)}
             onStartOver={handleStartOver}
           />
         )
