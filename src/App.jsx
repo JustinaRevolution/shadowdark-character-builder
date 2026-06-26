@@ -15,6 +15,7 @@ import classes from '../data/classes.json'
 import spells from '../data/spells.json'
 import backgrounds from '../data/backgrounds.json'
 import gear from '../data/gear.json'
+import languages from '../data/languages.json'
 import statsConfig from '../data/stats_config.json'
 
 const SHADOWDARK_SOURCES = [
@@ -165,8 +166,11 @@ export default function App() {
         return (
           <CharacterSheetStep
             character={character}
+            availableLanguages={filterBySource(languages, setting)}
             onNameChange={n => setField('name', n)}
             onLevelChange={n => setField('level', n)}
+            onLanguageAdd={lang => setField('languages', [...character.languages, lang])}
+            onLanguageRemove={lang => setField('languages', character.languages.filter(l => l !== lang))}
             onStartOver={handleStartOver}
           />
         )

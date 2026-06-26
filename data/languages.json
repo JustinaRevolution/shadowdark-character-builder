@@ -12,5 +12,19 @@
   {"name": "Celestial", "notes": "Spoken by angels", "rarity": "rare", "source": "Shadowdark RPG V1"},
   {"name": "Diabolic", "notes": "Spoken by demons and devils", "rarity": "rare", "source": "Shadowdark RPG V1"},
   {"name": "Draconic", "notes": "Spoken by dragons", "rarity": "rare", "source": "Shadowdark RPG V1"},
-  {"name": "Primordial", "notes": "Spoken by elder things and elementals", "rarity": "rare", "source": "Shadowdark RPG V1"}
+  {"name": "Primordial", "notes": "Spoken by elder things and elementals", "rarity": "rare", "source": "Shadowdark RPG V1"},
+  {"name": "Eastern", "notes": "Trade tongue of the Eastern Territories; most widely spoken language in the known world", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Western", "notes": "Trade tongue of the Western Empire", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Elvish", "notes": "Spoken by Elves", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Dwarfish", "notes": "Spoken by Dwarves", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Gnomish", "notes": "Spoken by Gnomes", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Gobblely", "notes": "Spoken by Goblins, Kobolds, and Hob-Goblins", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Orcish", "notes": "Spoken by Orcs and Ogres", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Wolfen", "notes": "Spoken by Wolfen and Coyle", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Troglodyte", "notes": "Spoken by Troglodytes", "rarity": "common", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Old Kingdom", "notes": "Ancient scholarly tongue of the Old Kingdom; rarely spoken in daily life", "rarity": "rare", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Dragonese", "notes": "Spoken by Dragons and some arcane scholars", "rarity": "rare", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Faerie", "notes": "Spoken by Fae creatures and magical beings", "rarity": "rare", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Elemental", "notes": "Spoken by Elementals; used in elemental magic rituals", "rarity": "rare", "source": "Palladium Fantasy 2nd Ed."},
+  {"name": "Diabolic", "notes": "Spoken by Demons and dark supernatural beings", "rarity": "rare", "source": "Palladium Fantasy 2nd Ed."}
 ]

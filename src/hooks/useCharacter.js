@@ -14,6 +14,7 @@ const INITIAL = {
   abilityScoreMethod: 'roll',
   gear: [],
   spells: [],
+  languages: [],
 }
 
 export function useCharacter() {

@@ -7,7 +7,10 @@
         "description": "Start with +2 HP. Roll hit points per level with advantage."
       }
     ],
-    "languages": ["Common", "Dwarvish"],
+    "languages": [
+      "Common",
+      "Dwarvish"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -18,7 +21,11 @@
         "description": "You get a +1 bonus to attack rolls with ranged weapons or a +1 bonus to spellcasting checks."
       }
     ],
-    "languages": ["Common", "Elvish", "Sylvan"],
+    "languages": [
+      "Common",
+      "Elvish",
+      "Sylvan"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -29,7 +36,10 @@
         "description": "You can't be surprised."
       }
     ],
-    "languages": ["Common", "Goblin"],
+    "languages": [
+      "Common",
+      "Goblin"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -40,7 +50,10 @@
         "description": "You have a +1 bonus to attack and damage rolls with melee weapons."
       }
     ],
-    "languages": ["Common", "Orcish"],
+    "languages": [
+      "Common",
+      "Orcish"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -51,7 +64,9 @@
         "description": "Once per day, you can become invisible for 3 rounds."
       }
     ],
-    "languages": ["Common"],
+    "languages": [
+      "Common"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -62,7 +77,10 @@
         "description": "You gain one additional talent roll at 1st level."
       }
     ],
-    "languages": ["Common", "one additional common language (player's choice, pg. 32)"],
+    "languages": [
+      "Common",
+      "one additional common language (player's choice, pg. 32)"
+    ],
     "source": "Shadowdark RPG V1"
   },
   {
@@ -73,7 +91,10 @@
         "description": "You can detect the presence or absence (but not location) of precious gems within near. Penetrates up to 1' of material. Lead of any thickness blocks this sense."
       }
     ],
-    "languages": ["Common", "Sylvan"],
+    "languages": [
+      "Common",
+      "Sylvan"
+    ],
     "source": "Letters from the Dark Vol. III: Tales of the Fey"
   },
   {
@@ -84,7 +105,10 @@
         "description": "You can speak to and understand natural animals that are cat-sized or smaller."
       }
     ],
-    "languages": ["Common", "Sylvan"],
+    "languages": [
+      "Common",
+      "Sylvan"
+    ],
     "source": "Letters from the Dark Vol. III: Tales of the Fey"
   },
   {
@@ -95,7 +119,10 @@
         "description": "You gain one additional skill of your choice at character creation."
       }
     ],
-    "languages": ["Common", "one additional language of your choice"],
+    "languages": [
+      "Eastern",
+      "one additional language of your choice"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -106,7 +133,10 @@
         "description": "You have nightvision to near range. You make INT checks to recall lore with advantage."
       }
     ],
-    "languages": ["Common", "Elvish"],
+    "languages": [
+      "Eastern",
+      "Elvish"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -117,7 +147,10 @@
         "description": "You have nightvision to near range. You have +1 to saves vs. magic effects."
       }
     ],
-    "languages": ["Common", "Dwarvish"],
+    "languages": [
+      "Eastern",
+      "Dwarfish"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -128,7 +161,10 @@
         "description": "You always know which direction is north while underground. You have +1 to stealth checks."
       }
     ],
-    "languages": ["Common", "Gnomish"],
+    "languages": [
+      "Eastern",
+      "Gnomish"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -139,7 +175,9 @@
         "description": "You have nightvision to far range. While at half HP or below, you gain one additional melee attack per round."
       }
     ],
-    "languages": ["Troglodyte"],
+    "languages": [
+      "Troglodyte"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -150,7 +188,10 @@
         "description": "You have nightvision to near range. You gain +1 to initiative rolls."
       }
     ],
-    "languages": ["Common", "Goblin"],
+    "languages": [
+      "Eastern",
+      "Gobblely"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -166,7 +207,10 @@
         "description": "Once per day, you can transform into any small animal (cat-sized or smaller) for up to 1 hour. You retain your INT but otherwise use the animal's stats."
       }
     ],
-    "languages": ["Common", "Goblin"],
+    "languages": [
+      "Eastern",
+      "Gobblely"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -177,7 +221,10 @@
         "description": "You have +2 to saves vs. mind-affecting effects. You cannot be surprised while conscious."
       }
     ],
-    "languages": ["Common", "Goblin"],
+    "languages": [
+      "Eastern",
+      "Gobblely"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -188,7 +235,10 @@
         "description": "You can track any creature that has bled within the last hour without a roll. You have +1 to attack rolls when below half HP."
       }
     ],
-    "languages": ["Common", "Orcish"],
+    "languages": [
+      "Eastern",
+      "Orcish"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -199,7 +249,10 @@
         "description": "Creatures of 1 HD or fewer that can see you must pass a DC 12 WIS check at the start of combat or be frightened for 1 round. Your unarmed strikes deal 1d6 damage."
       }
     ],
-    "languages": ["Common", "Orcish"],
+    "languages": [
+      "Eastern",
+      "Orcish"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -210,7 +263,9 @@
         "description": "Your claws and bite are natural weapons that deal 1d6 damage. Once per combat, you may make one additional melee attack as a free action."
       }
     ],
-    "languages": ["Common"],
+    "languages": [
+      "Eastern"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -221,7 +276,10 @@
         "description": "You can alter your appearance to look like any humanoid you have seen (takes 15 seconds). This is purely cosmetic. You have +2 to saves vs. mind control and illusion effects."
       }
     ],
-    "languages": ["Common", "one additional language of your choice"],
+    "languages": [
+      "Eastern",
+      "one additional language of your choice"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -232,7 +290,10 @@
         "description": "When an ally is adjacent to your target, you gain +1 to attack rolls against it. You can track by scent with advantage."
       }
     ],
-    "languages": ["Common", "Wolfen"],
+    "languages": [
+      "Eastern",
+      "Wolfen"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   },
   {
@@ -243,7 +304,10 @@
         "description": "You have +1 to DEX-based checks. You can follow a scent trail up to a mile old without a roll."
       }
     ],
-    "languages": ["Common", "Wolfen"],
+    "languages": [
+      "Eastern",
+      "Wolfen"
+    ],
     "source": "Palladium Fantasy 2nd Ed."
   }
 ]

@@ -13,8 +13,8 @@ function StatBox({ stat, score }) {
   )
 }
 
-export default function CharacterSheetStep({ character, onNameChange, onLevelChange, onStartOver }) {
-  const { name, level, ancestry, ancestryTrait, characterClass, alignment, background, abilityScores, gear, spells } = character
+export default function CharacterSheetStep({ character, availableLanguages, onNameChange, onLevelChange, onLanguageAdd, onLanguageRemove, onStartOver }) {
+  const { name, level, ancestry, ancestryTrait, characterClass, alignment, background, abilityScores, gear, spells, languages } = character
   const displayTraits = ancestry?.chooseOneTrait
     ? (ancestryTrait ? [ancestryTrait] : [])
     : (ancestry?.traits ?? [])
@@ -145,16 +145,38 @@ export default function CharacterSheetStep({ character, onNameChange, onLevelCha
       )}
 
       {/* Languages */}
-      {ancestry?.languages?.length > 0 && (
-        <div>
-          <h3 className="text-lg font-semibold text-amber-200 mb-2 print:text-black">Languages</h3>
-          <div className="flex flex-wrap gap-2">
-            {ancestry.languages.map(lang => (
+      <div>
+        <h3 className="text-lg font-semibold text-amber-200 mb-2 print:text-black">Languages</h3>
+        <div className="flex flex-wrap gap-2 mb-3">
+          {(ancestry?.languages ?? [])
+            .filter(l => !l.toLowerCase().includes('choice') && !l.toLowerCase().includes('additional'))
+            .map(lang => (
               <span key={lang} className="px-2 py-1 bg-stone-700 border border-stone-600 rounded text-sm text-stone-300">{lang}</span>
-            ))}
-          </div>
+            ))
+          }
+          {languages.map(lang => (
+            <span key={lang} className="flex items-center gap-1 px-2 py-1 bg-amber-950 border border-amber-700 rounded text-sm text-amber-200">
+              {lang}
+              <button onClick={() => onLanguageRemove(lang)} className="text-amber-500 hover:text-red-400 print:hidden leading-none">×</button>
+            </span>
+          ))}
         </div>
-      )}
+        <div className="print:hidden">
+          <select
+            className="bg-stone-800 border border-stone-600 rounded px-3 py-1.5 text-stone-300 text-sm focus:outline-none focus:border-amber-500"
+            value=""
+            onChange={e => { if (e.target.value) onLanguageAdd(e.target.value) }}
+          >
+            <option value="">+ Add language…</option>
+            {availableLanguages
+              .filter(l => !languages.includes(l.name) && !(ancestry?.languages ?? []).includes(l.name))
+              .map(l => (
+                <option key={l.name} value={l.name}>{l.name}{l.rarity === 'rare' ? ' (rare)' : ''}</option>
+              ))
+            }
+          </select>
+        </div>
+      </div>
 
       {/* Gear */}
       <div>
