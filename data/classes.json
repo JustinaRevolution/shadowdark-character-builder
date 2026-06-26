@@ -826,5 +826,149 @@
     "spells_known_at_creation": 0,
     "starting_gear": ["two sets of clothing", "robe or cloak with hood", "boots", "soft leather gloves", "belt", "bedroll", "backpack", "large purse or satchel", "4 small sacks", "2 medium sacks", "1 large sack", "water skin", "100-page notebook", "3 quill pens", "2 bottles of ink (different colors)", "4 sticks of graphite", "4 sticks of chalk", "4 candles", "small mirror", "silver coin worn as amulet", "4 cloves of garlic", "4 wooden stakes", "small hammer or mallet", "2 iron spikes", "tinderbox", "2 weeks of food rations"],
     "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Sensitive",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "studded leather"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "short bows", "crossbows", "clubs", "staves"],
+    "class_features": [
+      {
+        "name": "Psionic Senses",
+        "description": "Your senses extend beyond the physical. You can always sense the presence and expenditure of psionic or magical energy within 200 feet (rolling once every melee round) and detect supernatural beings — gods, elementals, demons, dragons, and high-level practitioners of magic — within 50 feet per level. You can read the aura of any person or creature within 40 feet, gaining a sense of their power level, alignment, and whether they are psychic or under supernatural influence."
+      },
+      {
+        "name": "Sixth Sense",
+        "description": "Your psychic instincts warn you of danger a split second before it strikes. Once per encounter, when you would be surprised or caught flat-footed, you may act normally on the surprise round instead. You cannot be ambushed or backstabbed without at least a chance to react."
+      },
+      {
+        "name": "Psionic Powers",
+        "description": "You are a master psionic of the sensitive category. All psionic spells you cast use CHA as your spellcasting stat. Your starting 3 psionic powers are drawn from the sensitive category; when you learn new spells you may choose from sensitive or healing psionic powers. You must roll a 10 or higher to save versus psionic attacks."
+      },
+      {
+        "name": "Supernatural Hunter",
+        "description": "Your life is spent tracking and confronting supernatural threats. You have advantage on INT checks to recall information about supernatural creatures (vampires, demons, undead, etc.) and know the classic methods of protection against them. Your starting equipment always includes a silver cross, wooden stakes, and a small mallet — you know exactly how to use them."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your psionic senses now cover 500 feet for magical energy and 100 feet per level for supernatural beings; you can pinpoint exact location instead of just presence"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn one additional psionic power from the sensitive or healing category"},
+      {"roll": "10-11", "effect": "+2 to all saves against psionic attacks, charms, mind control, and possession"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CHA",
+    "spells_known_at_creation": 3,
+    "starting_gear": ["two sets of clothing", "boots", "hat", "belt", "blanket", "backpack", "large sack", "4 small sacks", "water skin", "2 weeks of food rations", "small silver cross", "pocket mirror", "3 wooden stakes", "small mallet", "tinderbox", "studded leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psi-Healer",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "clubs", "staves", "crossbows"],
+    "class_features": [
+      {
+        "name": "Healer's Gift",
+        "description": "Your psionic abilities are focused entirely on healing and restoration. When you use a psionic power from the healing category to restore hit points, it restores the maximum possible amount (treat all dice as their maximum value). You begin knowing the following psionic healing abilities automatically, in addition to your chosen starting spells: deaden pain, empathy, healing touch, increased healing, psychic diagnosis, and see aura."
+      },
+      {
+        "name": "Psychic Surgery",
+        "description": "With 2D6 minutes of preparation and your bare hands, you can repair broken bones, internal injuries, and conditions conventional medicine cannot treat. You can bring a character at zero or fewer HP back from the brink — on a successful CHA check (DC 12), they stabilize at 1 HP. On a natural 20, they recover 1d6 HP and may act next round. Psychic surgery leaves no scars and requires no tools."
+      },
+      {
+        "name": "Psionic Powers",
+        "description": "You are a master psionic of the healing category. All psionic spells you cast use CHA as your spellcasting stat. Your starting 4 spells are drawn from the healing psionic category. When you learn new spells you may choose from healing or physical psionic powers. You must roll a 10 or higher to save versus psionic attacks."
+      },
+      {
+        "name": "Empathic Bond",
+        "description": "You sense the physical condition of any living creature within 60 feet — you know if they are injured, poisoned, diseased, unconscious, or near death without examination. Once per day, by touch, you can suppress another creature's pain for 1 hour, granting them +2 to all rolls and preventing incapacitation from pain or grievous wounds during that time."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your healing touch now restores an additional 1d6 HP, and you can use psychic surgery on yourself"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn one additional psionic power from the healing or physical category"},
+      {"roll": "10-11", "effect": "+4 to saves vs poison, disease, and coma; allies you treat within 24 hours also receive this bonus until their next rest"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CHA",
+    "spells_known_at_creation": 4,
+    "starting_gear": ["two sets of clothing", "boots", "hat", "belt", "blanket", "backpack", "2 medium-sized sacks", "6 small sacks", "water skin", "small kettle", "small frying pan", "4 vials for herbs and potions", "6 surgical knives (1d4 damage as weapons)", "rolls of cloth bandages", "first aid kit", "2 weeks of food rations", "cooking utensils", "pocket mirror", "3 wooden stakes", "small mallet", "tin of snuff", "tinderbox", "soft leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psi-Mystic",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "studded leather"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "short bows", "crossbows", "clubs", "staves"],
+    "class_features": [
+      {
+        "name": "Intuitive Magic",
+        "description": "Your spells arise from meditation and cosmic awareness, not study. You begin knowing 6 spells from levels 1 and 2 only — these are permanent intuitive knowledge and cannot be exchanged or replaced. Unlike a Wizard, you cannot copy or research new spells. However, at each new level you automatically intuit 2 new spells from any level you can currently access. All your spells use CHA as the casting stat."
+      },
+      {
+        "name": "Psionic Senses",
+        "description": "You possess the following psionic abilities innately, requiring no spell slots: exorcism, sense evil, sixth sense, meditation, and mind block. These always-on gifts form the bedrock of your awareness — you sense supernatural evil within 90 feet, receive premonitions of danger, and can shield your mind from psychic intrusion at will."
+      },
+      {
+        "name": "Cosmic Awareness",
+        "description": "Once per day, through 10 minutes of quiet meditation, you can ask one yes/no question about a supernatural entity, cursed object, haunted location, or pending threat within your general vicinity. The GM must answer truthfully based on what your psychic senses can perceive. This gift cannot be rushed or forced — it only works in genuine stillness."
+      },
+      {
+        "name": "Medium's Touch",
+        "description": "You perceive and interact with spirits, ghosts, and ethereal beings as if they were physical. You can strike incorporeal undead and spirits with your bare hands or any weapon — no silver, holy water, or special materials required. Likewise, they can affect you directly. You receive +4 to saves against possession."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your Cosmic Awareness can now be used twice per day and may ask open-ended questions instead of just yes/no"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Intuit one additional spell from any level you can currently access"},
+      {"roll": "10-11", "effect": "+2 to saves vs mind control, magic charms, and possession; +4 to saves vs all psionic attacks"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CHA",
+    "spells_known_at_creation": 6,
+    "starting_gear": ["two sets of clothing", "nice cloak or cape with optional hood", "leather boots", "belt", "blanket", "backpack", "2 medium-sized sacks", "2 small sacks", "water skin", "1 week of food rations", "pocket mirror", "hair comb", "tinderbox", "studded leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Mage",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "studded leather", "chain mail", "plate armor"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "clubs", "staves", "crossbows"],
+    "class_features": [
+      {
+        "name": "Master Psionics",
+        "description": "You have unlocked all four categories of psionic power: healing, sensitive, physical, and super psionics. You automatically know mind block, see aura, alter aura (self), and meditation — these require no spell slots. You begin knowing 4 additional psionic abilities chosen from any category. Limitation: mind wipe, psi-sword, and possess others cannot be chosen until you have gained at least 2 levels of experience. When learning new spells, you may draw from any psionic category."
+      },
+      {
+        "name": "Enhanced ISP Recovery",
+        "description": "Your psionic reserves regenerate at twice the normal rate. After any rest of 1 hour or more, you recover all expended spell slots as if you had completed a full night's rest. During focused meditation of 30 minutes, you recover all spell slots regardless of prior expenditure. This makes you uniquely resilient in long delves."
+      },
+      {
+        "name": "Psionic Mastery",
+        "description": "Your control over psionic force is exceptional. Psionic attacks you make that deal damage deal +1 point per damage die. Psionic healing you provide restores an additional 1d4 HP. When you use a psionic power that forces a saving throw, increase the DC by 2. Once per day, you may automatically succeed on one saving throw against psionic attack, possession, or mind control without rolling."
+      },
+      {
+        "name": "Mental Fortress",
+        "description": "Your mind is both your greatest weapon and hardest target. You have +6 to saves against mind-controlling drugs, potions, and magic charms, +5 to saves against possession, and +3 to saves against horror factor. Non-psionic creatures automatically fail any attempt to read your thoughts. You always know when someone attempts to influence your mind psionically, even if they succeed."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Once per day, you may use any one super psionic power of your choice without expending a spell slot"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Learn one additional psionic power from any category"},
+      {"roll": "10-11", "effect": "+2 to all psionic spell attack rolls; your psionic save DC increases by an additional 1"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "CHA",
+    "spells_known_at_creation": 4,
+    "starting_gear": ["two sets of clothing", "expensive cloak or cape", "expensive leather boots", "belt", "blanket", "backpack", "2 medium-sized sacks", "6 small sacks", "water skin", "1 week of food rations", "pocket mirror", "tin of snuff", "tinderbox", "studded leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
   }
 ]
