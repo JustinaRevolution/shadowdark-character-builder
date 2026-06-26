@@ -14,7 +14,10 @@ function StatBox({ stat, score }) {
 }
 
 export default function CharacterSheetStep({ character, onNameChange, onStartOver }) {
-  const { name, ancestry, characterClass, alignment, background, abilityScores, gear, spells } = character
+  const { name, ancestry, ancestryTrait, characterClass, alignment, background, abilityScores, gear, spells } = character
+  const displayTraits = ancestry?.chooseOneTrait
+    ? (ancestryTrait ? [ancestryTrait] : [])
+    : (ancestry?.traits ?? [])
   const stats = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA']
 
   return (
@@ -114,11 +117,11 @@ export default function CharacterSheetStep({ character, onNameChange, onStartOve
       )}
 
       {/* Ancestry Traits */}
-      {ancestry?.traits?.length > 0 && (
+      {displayTraits.length > 0 && (
         <div>
           <h3 className="text-lg font-semibold text-amber-200 mb-2 print:text-black">Ancestry Traits</h3>
           <div className="space-y-2">
-            {ancestry.traits.map(t => (
+            {displayTraits.map(t => (
               <div key={t.name} className="bg-stone-800 border border-stone-600 rounded-lg p-3">
                 <div className="font-semibold text-amber-100">{t.name}</div>
                 <div className="text-sm text-stone-400 mt-1">{t.description}</div>

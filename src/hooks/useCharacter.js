@@ -5,6 +5,7 @@ const INITIAL_SCORES = { STR: 8, DEX: 8, CON: 8, INT: 8, WIS: 8, CHA: 8 }
 const INITIAL = {
   name: '',
   ancestry: null,
+  ancestryTrait: null,
   characterClass: null,
   alignment: null,
   background: null,

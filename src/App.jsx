@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useCharacter } from './hooks/useCharacter'
 import ProgressBar from './components/ProgressBar'
+import LandingScreen from './components/LandingScreen'
 import AncestryStep from './components/steps/AncestryStep'
 import ClassStep from './components/steps/ClassStep'
 import BackgroundStep from './components/steps/BackgroundStep'
@@ -16,10 +17,33 @@ import backgrounds from '../data/backgrounds.json'
 import gear from '../data/gear.json'
 import statsConfig from '../data/stats_config.json'
 
-const ALIGNMENTS = [
-  { name: 'Lawful', description: 'You uphold law, order, and tradition above all.' },
-  { name: 'Neutral', description: 'You follow your own moral compass.' },
-  { name: 'Chaotic', description: 'You prize freedom and personal choice above all.' },
+const SHADOWDARK_SOURCES = [
+  'Shadowdark RPG V1',
+  'Letters from the Dark Vol. 1: Out of Time',
+  'Letters from the Dark Vol. 3: Tales of the Fey',
+  'Letters from the Dark Vol. III: Tales of the Fey',
+  'Shadowdark: Necronomicon',
+]
+
+const PALLADIUM_SOURCES = ['Palladium Fantasy 2nd Ed.']
+
+function filterBySource(items, setting) {
+  if (setting === 'shadowdark') return items.filter(i => SHADOWDARK_SOURCES.includes(i.source))
+  if (setting === 'palladium') return items.filter(i => PALLADIUM_SOURCES.includes(i.source))
+  return items
+}
+
+const ALL_ALIGNMENTS = [
+  { name: 'Lawful', description: 'You uphold law, order, and tradition above all.', source: 'Shadowdark RPG V1' },
+  { name: 'Neutral', description: 'You follow your own moral compass.', source: 'Shadowdark RPG V1' },
+  { name: 'Chaotic', description: 'You prize freedom and personal choice above all.', source: 'Shadowdark RPG V1' },
+  { name: 'Principled', description: 'The highest moral standards. Honest, just, and loyal even at personal cost.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Scrupulous', description: 'Good and ethical, but will bend rules to protect the innocent.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Unprincipled', description: 'Typically good but places personal freedom first. Will deceive when necessary.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Anarchist', description: 'Believes in absolute personal freedom. Unpredictable, a wild card.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Miscreant', description: 'Selfish and evil. Will harm others for personal gain without remorse.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Aberrant', description: 'Ruthless but with a personal code. Will not betray those who hired them.', source: 'Palladium Fantasy 2nd Ed.' },
+  { name: 'Diabolic', description: 'Pure evil, without mercy or remorse. Cruelty is a way of life.', source: 'Palladium Fantasy 2nd Ed.' },
 ]
 
 const ALL_STEPS = [
@@ -34,7 +58,12 @@ const ALL_STEPS = [
 
 export default function App() {
   const { character, setField, setAbilityScore, reset } = useCharacter()
+  const [setting, setSetting] = useState(null)
   const [stepIndex, setStepIndex] = useState(0)
+
+  const filteredAncestries = filterBySource(ancestries, setting)
+  const filteredClasses = filterBySource(classes, setting)
+  const filteredAlignments = filterBySource(ALL_ALIGNMENTS, setting)
 
   const isCaster = !!character.characterClass?.spellcasting
   const visibleSteps = ALL_STEPS.filter(s => s.key !== 'spells' || isCaster)
@@ -42,7 +71,7 @@ export default function App() {
 
   function canProceed() {
     switch (currentStep.key) {
-      case 'ancestry': return !!character.ancestry
+      case 'ancestry': return !!character.ancestry && (!character.ancestry.chooseOneTrait || !!character.ancestryTrait)
       case 'class': return !!character.characterClass
       case 'background': return !!character.background && !!character.alignment
       case 'scores': return true
@@ -68,6 +97,7 @@ export default function App() {
 
   function handleStartOver() {
     reset()
+    setSetting(null)
     setStepIndex(0)
   }
 
@@ -76,15 +106,17 @@ export default function App() {
       case 'ancestry':
         return (
           <AncestryStep
-            ancestries={ancestries}
+            ancestries={filteredAncestries}
             selected={character.ancestry}
-            onSelect={a => setField('ancestry', a)}
+            onSelect={a => { setField('ancestry', a); setField('ancestryTrait', null) }}
+            selectedTrait={character.ancestryTrait}
+            onSelectTrait={t => setField('ancestryTrait', t)}
           />
         )
       case 'class':
         return (
           <ClassStep
-            classes={classes}
+            classes={filteredClasses}
             selected={character.characterClass}
             onSelect={handleClassSelect}
           />
@@ -93,7 +125,7 @@ export default function App() {
         return (
           <BackgroundStep
             backgrounds={backgrounds}
-            alignments={ALIGNMENTS}
+            alignments={filteredAlignments}
             selectedBackground={character.background}
             selectedAlignment={character.alignment}
             onSelectBackground={b => setField('background', b)}
@@ -141,12 +173,16 @@ export default function App() {
 
   const isLastStep = stepIndex === visibleSteps.length - 1
 
+  if (!setting) return <LandingScreen onSelect={s => { setSetting(s); setStepIndex(0) }} />
+
+  const settingLabel = setting === 'palladium' ? 'Palladium Fantasy' : 'Shadowdark RPG'
+
   return (
     <div className="min-h-screen bg-stone-900 text-amber-100">
       <div className="max-w-3xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-amber-400">Shadowdark</h1>
-          <p className="text-stone-500 mt-1">Character Creator</p>
+          <p className="text-stone-500 mt-1">Character Creator &mdash; {settingLabel}</p>
         </div>
 
         <ProgressBar steps={visibleSteps.map(s => s.label)} current={stepIndex} />

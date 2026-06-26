@@ -258,5 +258,393 @@
     "spells_known_at_creation": 0,
     "starting_gear": [],
     "source": "Shadowdark: Necronomicon"
+  },
+  {
+    "name": "Mercenary Fighter",
+    "hit_die": "d8",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Battle-Hardened",
+        "description": "+1 to melee attack rolls. At level 5, this increases to +2."
+      },
+      {
+        "name": "Mercenary's Edge",
+        "description": "Once per rest, reroll one failed attack roll and take the better result."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain proficiency with one additional weapon type"},
+      {"roll": "3-6", "effect": "+2 to attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+2 AC"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["chain mail", "sword of choice", "dagger", "shield", "backpack", "two sets of clothing", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Soldier",
+    "hit_die": "d8",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Military Discipline",
+        "description": "Advantage on saves vs fear and morale effects."
+      },
+      {
+        "name": "Formation Fighter",
+        "description": "When an ally is within close range of your target, you gain +1 to attack and damage rolls against that target."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "When you slay a foe, allies within near range gain +1 to their next attack roll"},
+      {"roll": "3-6", "effect": "+2 to attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+1 to all saving throws"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["chain mail", "shield", "two weapons of choice", "dagger", "uniform", "backpack", "two weeks of rations", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Long Bowman",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "chain mail"],
+    "weapon_proficiencies": ["all bows", "all melee weapons"],
+    "class_features": [
+      {
+        "name": "Superior Bowmanship",
+        "description": "You suffer no penalty for shooting from horseback, while moving, or from an awkward position. You gain +1 to ranged attack rolls."
+      },
+      {
+        "name": "Dodge Arrows",
+        "description": "Once per round, when struck by a ranged attack, make a DEX check (DC 12) to halve the damage."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Long bow shots ignore the effects of partial cover"},
+      {"roll": "3-6", "effect": "+2 to ranged attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Dodge Arrows DC drops from 12 to 9"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["studded leather", "long bow", "quiver with 32 arrows", "knife", "hooded cloak", "backpack", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Knight",
+    "hit_die": "d10",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Mounted Warrior",
+        "description": "While on horseback, you gain +1 to attack and damage rolls and suffer no armor movement penalties."
+      },
+      {
+        "name": "Way of the Lance",
+        "description": "You deal +1d6 damage with lances. On a natural 19 or 20 while mounted with a lance, the target is knocked prone or off their mount."
+      },
+      {
+        "name": "Code of Chivalry",
+        "description": "Advantage on saves vs fear and charm when defending others. If you knowingly attack an unarmed foe or act dishonorably, lose this benefit until you atone."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Way of the Lance: natural 19-20 lance strikes now deal triple damage"},
+      {"roll": "3-6", "effect": "+2 to attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Allies within near range gain advantage on saves vs fear"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["chain mail", "small shield", "dagger", "lance", "sword of choice", "one additional weapon", "riding horse", "backpack", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Palladin",
+    "hit_die": "d10",
+    "armor_proficiencies": ["all armor", "shields"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Demon Death Blow",
+        "description": "Once per day, one melee strike automatically bypasses damage immunities and deals maximum damage. Only usable against supernatural creatures, undead, or demons."
+      },
+      {
+        "name": "Holy Aura",
+        "description": "Advantage on saving throws vs magic, fear, and corruption."
+      },
+      {
+        "name": "Code of Chivalry",
+        "description": "Advantage on saves vs fear and charm when defending others. If you knowingly attack an unarmed foe or act dishonorably, lose this benefit until you atone."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Demon Death Blow is now usable twice per day"},
+      {"roll": "3-6", "effect": "+2 to attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+1 to all saving throws"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["chain mail", "small shield", "dagger", "lance", "sword of choice", "two additional weapons of choice", "riding horse", "backpack", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Ranger",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "chain mail"],
+    "weapon_proficiencies": ["all weapons", "long bow"],
+    "class_features": [
+      {
+        "name": "Wilderness Expert",
+        "description": "Advantage on all tracking, navigation, and survival checks. You can forage food and water for yourself and up to 3 companions each day with an INT check (DC 9)."
+      },
+      {
+        "name": "Hunter's Eye",
+        "description": "+1 to attack rolls against targets at near range or farther. At level 5, this increases to +2."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Gain a loyal animal companion (wolf, hawk, or dog)"},
+      {"roll": "3-6", "effect": "+2 to attack rolls in wilderness terrain"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Advantage on DEX checks to hide or move silently outdoors"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["studded leather", "long bow", "quiver with 20 arrows", "two weapons of choice", "knife", "cloak", "backpack", "fishing line and hooks", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Thief",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "short swords", "crossbows", "clubs", "hand axes", "short bows"],
+    "class_features": [
+      {
+        "name": "Light Fingers",
+        "description": "Advantage on checks to pick locks, pick pockets, and find or disable traps."
+      },
+      {
+        "name": "Backstab",
+        "description": "When you attack a target that is unaware of you or engaged with another creature, deal +1d6 extra damage."
+      },
+      {
+        "name": "Guild Contacts",
+        "description": "In any settlement, you can seek out a fence, safe house, or criminal contact with a CHA check (DC 12)."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Once per day, convincingly disguise yourself as a different person for up to 1 hour"},
+      {"roll": "3-6", "effect": "Backstab damage increases by +1d6"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+2 to DEX checks involving stealth or sleight of hand"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["soft leather armor", "two daggers", "two weapons of choice", "lock picks", "50 ft rope", "small sack", "backpack", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Assassin",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor", "chain mail"],
+    "weapon_proficiencies": ["all weapons"],
+    "class_features": [
+      {
+        "name": "Death Strike",
+        "description": "Once per day, when you attack a humanoid target that is unaware of you, they must make a CON save (DC 14) or die instantly. On a successful save, they take maximum weapon damage instead."
+      },
+      {
+        "name": "Professional Killer",
+        "description": "+2 to attack rolls against targets that have not yet taken a turn in the current combat."
+      },
+      {
+        "name": "Poison Mastery",
+        "description": "You can apply poison to weapons without risk of accidental self-poisoning. You can identify poisons by sight or smell."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Death Strike save DC increases from 14 to 16"},
+      {"roll": "3-6", "effect": "+2 to attack rolls"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+1d6 poison damage on one poisoned weapon per day"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["soft leather armor", "two daggers", "two weapons of choice", "lock picks", "skeleton key set", "50 ft rope", "grappling hook", "backpack", "tinderbox"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Priest of Light",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "padded armor"],
+    "weapon_proficiencies": ["staves", "clubs", "maces", "spears", "swords"],
+    "class_features": [
+      {
+        "name": "Healing Touch",
+        "description": "Once per round, you may touch a creature other than yourself to restore 1d4 HP. This is not a spell and requires no roll."
+      },
+      {
+        "name": "Exorcism",
+        "description": "With 10 minutes of ritual prayer, you force one possessing entity, ghost, or demon to make a WIS save (DC = 10 + your level) or be expelled. On success, it cannot return for 24 hours."
+      },
+      {
+        "name": "Turn Undead",
+        "description": "As an action, present your holy symbol. Undead within near range that can see you must make a WIS save (DC 12) or flee for 1 minute."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "You are endowed with divine spellcasting by your deity. You know 2 tier 1 WIS spells at level 1 and learn additional spells as you gain experience."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Healing Touch now restores 1d8 HP instead of 1d4"},
+      {"roll": "3-6", "effect": "+1 to WIS spellcasting checks"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Learn one additional spell of any tier you can currently cast"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "WIS",
+    "spells_known_at_creation": 2,
+    "starting_gear": ["traveling robe", "ceremonial robe", "holy symbol", "staff or mace of choice", "soft leather armor", "backpack", "2 vials of holy water", "small mallet", "4 wooden spikes", "30 ft rope", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Priest of Darkness",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["daggers", "staves", "swords", "clubs", "maces"],
+    "class_features": [
+      {
+        "name": "Dark Healing Touch",
+        "description": "Once per round, you may touch a creature other than yourself to restore 1d6 HP. This works on undead as well as the living. No roll required."
+      },
+      {
+        "name": "Curse",
+        "description": "Once per day, one visible target within near range must make a WIS save (DC 12) or suffer -2 to all checks for 1d6 days. Multiple curses stack. You can place one curse per day per level."
+      },
+      {
+        "name": "Command Dead",
+        "description": "Animated undead equal to your level obey your spoken commands while within near range. This requires no roll — they simply comply."
+      },
+      {
+        "name": "Turn or Command Undead",
+        "description": "Present your dark holy symbol. You may choose to repel undead (as Turn Undead, WIS save DC 12 or flee) or to seize control of them (they join your Command Dead count)."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "Your deity endows you with dark spellcasting power. You know 2 tier 1 WIS spells at level 1, favoring spells of control, fear, and death."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Curse save DC increases from 12 to 14"},
+      {"roll": "3-6", "effect": "+1 to WIS spellcasting checks"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Command Dead range extends from near to far"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "WIS",
+    "spells_known_at_creation": 2,
+    "starting_gear": ["traveling robe", "ceremonial dark robe", "dark holy symbol", "pair of daggers", "weapon of choice", "soft leather armor", "backpack", "4 small sacks", "water skin", "small mallet", "30 ft rope", "gold chalice", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Warrior Monk",
+    "hit_die": "d8",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["staves", "spears", "bows", "clubs", "maces", "forked weapons"],
+    "class_features": [
+      {
+        "name": "Stick Fighting",
+        "description": "+1 to attack and damage rolls with staves and spears. On a natural 18-20 with a staff strike, the target is stunned and loses their next action."
+      },
+      {
+        "name": "Spirit Strike",
+        "description": "Once per day, one attack deals triple damage. This inner-spirit strike can only be used against supernatural creatures, demons, elementals, or creatures of magic."
+      },
+      {
+        "name": "Deep Meditation",
+        "description": "Once per rest, spend 10 minutes in meditation to restore 1d6 HP and remove one condition (frightened, poisoned, or cursed)."
+      },
+      {
+        "name": "Unarmed Combat",
+        "description": "You can make unarmed strikes dealing 1d4 damage. You are never considered unarmed."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Spirit Strike is now usable twice per day"},
+      {"roll": "3-6", "effect": "+2 to attack rolls with staves or spears"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "+1 to all saves vs magic, poison, and disease"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["dark traveling robe with hood", "sandals or moccasins", "sturdy staff or spear", "soft leather armor", "backpack", "water skin", "holy symbol", "small mallet", "6 wooden spikes", "30 ft rope", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Druid",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor"],
+    "weapon_proficiencies": ["staves", "clubs", "slings", "bows", "spears", "knives"],
+    "class_features": [
+      {
+        "name": "Animal Bond",
+        "description": "You can speak with and understand animals. Once per day, one animal will perform a simple task for you without any check required."
+      },
+      {
+        "name": "Woodland Form",
+        "description": "Once per day, transform into any natural animal up to bear-sized for up to 1 hour. You retain your WIS score but otherwise use the animal's stats."
+      },
+      {
+        "name": "Nature's Sense",
+        "description": "Advantage on all navigation, weather-reading, and plant or animal identification checks."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "Your connection to nature grants you spellcasting. You know 2 tier 1 WIS spells at level 1, drawn from healing and nature themes. Metal armor disrupts this connection — you must wear only leather."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Woodland Form is now usable twice per day"},
+      {"roll": "3-6", "effect": "+1 to WIS spellcasting checks"},
+      {"roll": "7-9", "effect": "+1d6 HP"},
+      {"roll": "10-11", "effect": "Animal Bond: up to three animals will perform tasks for you per day"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": true,
+    "spell_stat": "WIS",
+    "spells_known_at_creation": 2,
+    "starting_gear": ["traveling clothes", "dark hooded robe", "moccasins", "staff or wooden weapon", "soft leather armor", "backpack", "water skin", "sprig of mistletoe", "clove of garlic", "small mallet", "8 wooden spikes", "30 ft rope", "small mirror", "tinderbox", "2 weeks of food rations"],
+    "source": "Palladium Fantasy 2nd Ed."
   }
 ]

@@ -86,5 +86,164 @@
     ],
     "languages": ["Common", "Sylvan"],
     "source": "Letters from the Dark Vol. III: Tales of the Fey"
+  },
+  {
+    "name": "Human",
+    "traits": [
+      {
+        "name": "Adaptable",
+        "description": "You gain one additional skill of your choice at character creation."
+      }
+    ],
+    "languages": ["Common", "one additional language of your choice"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elf",
+    "traits": [
+      {
+        "name": "Ancient Blood",
+        "description": "You have nightvision to near range. You make INT checks to recall lore with advantage."
+      }
+    ],
+    "languages": ["Common", "Elvish"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Dwarf",
+    "traits": [
+      {
+        "name": "Tunnel-Born",
+        "description": "You have nightvision to near range. You have +1 to saves vs. magic effects."
+      }
+    ],
+    "languages": ["Common", "Dwarvish"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Gnome",
+    "traits": [
+      {
+        "name": "Underground Wayfinder",
+        "description": "You always know which direction is north while underground. You have +1 to stealth checks."
+      }
+    ],
+    "languages": ["Common", "Gnomish"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Troglodyte",
+    "traits": [
+      {
+        "name": "Deep Sight",
+        "description": "You have nightvision to far range. While at half HP or below, you gain one additional melee attack per round."
+      }
+    ],
+    "languages": ["Troglodyte"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Kobold",
+    "traits": [
+      {
+        "name": "Shadow Delver",
+        "description": "You have nightvision to near range. You gain +1 to initiative rolls."
+      }
+    ],
+    "languages": ["Common", "Goblin"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Goblin",
+    "chooseOneTrait": true,
+    "traits": [
+      {
+        "name": "Lurker",
+        "description": "You have nightvision to near range. You can attempt to hide even when only lightly obscured."
+      },
+      {
+        "name": "Cobbler's Gift",
+        "description": "Once per day, you can transform into any small animal (cat-sized or smaller) for up to 1 hour. You retain your INT but otherwise use the animal's stats."
+      }
+    ],
+    "languages": ["Common", "Goblin"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Hob-Goblin",
+    "traits": [
+      {
+        "name": "Iron Will",
+        "description": "You have +2 to saves vs. mind-affecting effects. You cannot be surprised while conscious."
+      }
+    ],
+    "languages": ["Common", "Goblin"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Orc",
+    "traits": [
+      {
+        "name": "Blood Scent",
+        "description": "You can track any creature that has bled within the last hour without a roll. You have +1 to attack rolls when below half HP."
+      }
+    ],
+    "languages": ["Common", "Orcish"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Ogre",
+    "traits": [
+      {
+        "name": "Terrifying",
+        "description": "Creatures of 1 HD or fewer that can see you must pass a DC 12 WIS check at the start of combat or be frightened for 1 round. Your unarmed strikes deal 1d6 damage."
+      }
+    ],
+    "languages": ["Common", "Orcish"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Troll",
+    "traits": [
+      {
+        "name": "Savage Combatant",
+        "description": "Your claws and bite are natural weapons that deal 1d6 damage. Once per combat, you may make one additional melee attack as a free action."
+      }
+    ],
+    "languages": ["Common"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Changeling",
+    "traits": [
+      {
+        "name": "Shapeshifter",
+        "description": "You can alter your appearance to look like any humanoid you have seen (takes 15 seconds). This is purely cosmetic. You have +2 to saves vs. mind control and illusion effects."
+      }
+    ],
+    "languages": ["Common", "one additional language of your choice"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wolfen",
+    "traits": [
+      {
+        "name": "Pack Hunter",
+        "description": "When an ally is adjacent to your target, you gain +1 to attack rolls against it. You can track by scent with advantage."
+      }
+    ],
+    "languages": ["Common", "Wolfen"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Coyle",
+    "traits": [
+      {
+        "name": "Street Cunning",
+        "description": "You have +1 to DEX-based checks. You can follow a scent trail up to a mile old without a roll."
+      }
+    ],
+    "languages": ["Common", "Wolfen"],
+    "source": "Palladium Fantasy 2nd Ed."
   }
 ]

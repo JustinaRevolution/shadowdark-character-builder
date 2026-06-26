@@ -1,4 +1,4 @@
-export default function AncestryStep({ ancestries, selected, onSelect }) {
+export default function AncestryStep({ ancestries, selected, onSelect, selectedTrait, onSelectTrait }) {
   return (
     <div>
       <h2 className="text-2xl font-bold text-amber-300 mb-2">Choose Your Ancestry</h2>
@@ -7,11 +7,11 @@ export default function AncestryStep({ ancestries, selected, onSelect }) {
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
         {ancestries.map(ancestry => (
           <button
-            key={ancestry.name}
+            key={`${ancestry.name}-${ancestry.source}`}
             data-testid="ancestry-card"
             onClick={() => onSelect(ancestry)}
             className={`p-4 rounded-lg border text-left transition-colors ${
-              selected?.name === ancestry.name
+              selected?.name === ancestry.name && selected?.source === ancestry.source
                 ? 'border-amber-400 bg-amber-950'
                 : 'border-stone-600 bg-stone-800 hover:border-stone-400'
             }`}
@@ -25,14 +25,38 @@ export default function AncestryStep({ ancestries, selected, onSelect }) {
       {selected && (
         <div className="bg-stone-800 border border-stone-600 rounded-lg p-4">
           <h3 className="font-bold text-amber-300 mb-3">{selected.name} Traits</h3>
-          <ul className="space-y-2 mb-4">
-            {selected.traits.map(t => (
-              <li key={t.name}>
-                <span className="font-semibold text-amber-100">{t.name}</span>:{' '}
-                <span className="text-stone-300">{t.description}</span>
-              </li>
-            ))}
-          </ul>
+
+          {selected.chooseOneTrait ? (
+            <div className="mb-4">
+              <p className="text-sm text-stone-400 mb-3">Choose one trait:</p>
+              <div className="space-y-2">
+                {selected.traits.map(t => (
+                  <button
+                    key={t.name}
+                    onClick={() => onSelectTrait(t)}
+                    className={`w-full text-left p-3 rounded-lg border transition-colors ${
+                      selectedTrait?.name === t.name
+                        ? 'border-amber-400 bg-amber-950'
+                        : 'border-stone-600 bg-stone-700 hover:border-stone-400'
+                    }`}
+                  >
+                    <span className="font-semibold text-amber-100">{t.name}</span>
+                    <span className="text-stone-300">: {t.description}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <ul className="space-y-2 mb-4">
+              {selected.traits.map(t => (
+                <li key={t.name}>
+                  <span className="font-semibold text-amber-100">{t.name}</span>:{' '}
+                  <span className="text-stone-300">{t.description}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+
           <div className="text-sm text-stone-400">
             <span className="font-semibold text-stone-300">Languages:</span>{' '}
             {selected.languages.join(', ')}
