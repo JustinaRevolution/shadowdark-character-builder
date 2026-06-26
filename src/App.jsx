@@ -156,7 +156,7 @@ export default function App() {
         return (
           <SpellsStep
             characterClass={character.characterClass}
-            spells={spells}
+            spells={filterBySource(spells, setting)}
             selectedSpells={character.spells}
             onSpellsChange={s => setField('spells', s)}
           />

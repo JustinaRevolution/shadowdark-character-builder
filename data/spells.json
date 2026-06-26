@@ -1,109 +1,3153 @@
 [
-  {"name": "Alarm", "tier": 1, "class": "Wizard", "duration": "1 day", "range": "Close", "description": "You touch an object or area up to near-sized to set a magical alarm. You instantly know when a creature touches or enters the warded area.", "source": "Shadowdark RPG V1"},
-  {"name": "Burning Hands", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Close", "description": "You unleash a circle of flame from your hands. Choose a target within close range. It takes 1d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Charm Person", "tier": 1, "class": "Wizard", "duration": "1d8 days", "range": "Near", "description": "You beguile one humanoid of LV 2 or less. It treats you as a trusted friend for the duration, but knows it was charmed afterward.", "source": "Shadowdark RPG V1"},
-  {"name": "Detect Magic", "tier": 1, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You sense the presence of magic within near range. The GM tells you the location but not the nature of each magical aura you sense.", "source": "Shadowdark RPG V1"},
-  {"name": "Feather Fall", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Self", "description": "You slow your rate of descent to land safely if you fall.", "source": "Shadowdark RPG V1"},
-  {"name": "Floating Disk", "tier": 1, "class": "Wizard", "duration": "10 rounds", "range": "Near", "description": "You create a magical floating disk of force that follows you. The disk carries up to 20 gear slots of equipment and hovers at waist height.", "source": "Shadowdark RPG V1"},
-  {"name": "Hold Portal", "tier": 1, "class": "Wizard", "duration": "10 rounds", "range": "Near", "description": "You hold a door, gate, or portal closed. A creature trying to open it must make a STR check vs. your spellcasting check.", "source": "Shadowdark RPG V1"},
-  {"name": "Light", "tier": 1, "class": "Wizard, Priest", "duration": "1 hour real time", "range": "Close", "description": "One object you touch glows with bright light that fills a near distance. Touch it again to end the spell.", "source": "Shadowdark RPG V1"},
-  {"name": "Mage Armor", "tier": 1, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "Your armor class becomes 14 (18 on a critical spellcasting check).", "source": "Shadowdark RPG V1"},
-  {"name": "Magic Missile", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "You fire a glowing bolt that hits a target of your choice. It deals 1d4 damage. You make the spellcasting check with advantage.", "source": "Shadowdark RPG V1"},
-  {"name": "Protection from Evil", "tier": 1, "class": "Wizard, Priest", "duration": "Focus", "range": "Close", "description": "Chaotic beings have disadvantage on attack rolls and hostile spellcasting checks against the target. These beings also can't possess, compel, or beguile the target. When cast on an already-possessed target, the possessing entity makes a CHA check vs. the last spellcasting check. On a failure, the entity is expelled.", "source": "Shadowdark RPG V1"},
-  {"name": "Sleep", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Near", "description": "You weave a lulling spell that fills a near-sized cube extending from you. Choose a number of living creatures in the area up to your level. Those creatures fall into a deep sleep if they are LV 2 or less. Vigorous shaking or being injured wakes them.", "source": "Shadowdark RPG V1"},
-  {"name": "Acid Arrow", "tier": 2, "class": "Wizard", "duration": "Focus", "range": "Far", "description": "A corrosive bolt of acid hits one target. The target takes 1d6 damage, and continues to take 1d6 damage each round while the spell is focused.", "source": "Shadowdark RPG V1"},
-  {"name": "Alter Self", "tier": 2, "class": "Wizard", "duration": "5 rounds", "range": "Self", "description": "Your body takes on new features. Choose one: water-breathing, natural weapons (d6 damage), darkvision, or non-humanoid appearance.", "source": "Shadowdark RPG V1"},
-  {"name": "Detect Thoughts", "tier": 2, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You detect the surface thoughts of one creature within range. Each round you maintain focus, the GM tells you the creature's immediate thoughts.", "source": "Shadowdark RPG V1"},
-  {"name": "Fixed Object", "tier": 2, "class": "Wizard", "duration": "5 rounds", "range": "Close", "description": "An object you touch weighing up to 5 lbs becomes fixed in its current position. Nothing can move it while focused.", "source": "Shadowdark RPG V1"},
-  {"name": "Hold Person", "tier": 2, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You paralyze one humanoid creature of LV 4 or less. It is aware but can't take actions or move while focused.", "source": "Shadowdark RPG V1"},
-  {"name": "Invisibility", "tier": 2, "class": "Wizard", "duration": "10 rounds", "range": "Close", "description": "A creature you touch becomes invisible for the duration. The spell ends if the target attacks or casts a spell.", "source": "Shadowdark RPG V1"},
-  {"name": "Knock", "tier": 2, "class": "Wizard", "duration": "Instant", "range": "Near", "description": "A door, gate, or other portal instantly opens, defeating mundane locks. The sound of opening can be heard at far range.", "source": "Shadowdark RPG V1"},
-  {"name": "Levitate", "tier": 2, "class": "Wizard", "duration": "Focus", "range": "Self", "description": "You float a near distance vertically per round. You can hold yourself in place by grabbing something solid.", "source": "Shadowdark RPG V1"},
-  {"name": "Mirror Image", "tier": 2, "class": "Wizard", "duration": "5 rounds", "range": "Self", "description": "You create a number of illusory duplicates equal to half your level (minimum 1). Attackers must randomly determine which image to target. Duplicates are destroyed when targeted.", "source": "Shadowdark RPG V1"},
-  {"name": "Misty Step", "tier": 2, "class": "Wizard", "duration": "Instant", "range": "Self", "description": "You teleport a near distance to an unoccupied space you can see.", "source": "Shadowdark RPG V1"},
-  {"name": "Silence", "tier": 2, "class": "Wizard", "duration": "Focus", "range": "Far", "description": "You magically mute sound in a near cube within the spell's range. Creatures inside are deafened, and any sounds they create cannot be heard.", "source": "Shadowdark RPG V1"},
-  {"name": "Web", "tier": 2, "class": "Wizard", "duration": "5 rounds", "range": "Far", "description": "You create a near-sized cube of sticky, dense spider web within range. A creature stuck in the web can't move and must succeed on a Strength check vs. your spellcasting check to free itself.", "source": "Shadowdark RPG V1"},
-  {"name": "Animate Dead", "tier": 3, "class": "Wizard", "duration": "1 day", "range": "Close", "description": "You touch the remains of a humanoid creature, animating it as a skeleton or zombie under your control. The undead obeys simple commands.", "source": "Shadowdark RPG V1"},
-  {"name": "Dispel Magic", "tier": 3, "class": "Wizard", "duration": "Instant", "range": "Near", "description": "You end one spell affecting a target you can see within range.", "source": "Shadowdark RPG V1"},
-  {"name": "Fabricate", "tier": 3, "class": "Wizard", "duration": "10 rounds", "range": "Near", "description": "You turn raw materials into a finished work. The work can be as complex as a lockbox or simple furniture.", "source": "Shadowdark RPG V1"},
-  {"name": "Fireball", "tier": 3, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "You hurl a tiny bead of fire that erupts at a point within range. All creatures within a near-sized cube of that point take 4d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Fly", "tier": 3, "class": "Wizard", "duration": "5 rounds", "range": "Self", "description": "You can fly a near distance per round. You can hover in place.", "source": "Shadowdark RPG V1"},
-  {"name": "Gaseous Form", "tier": 3, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "You and your gear transform into a cloud of smoke. You can move a near distance each round and fit through small gaps.", "source": "Shadowdark RPG V1"},
-  {"name": "Illusion", "tier": 3, "class": "Wizard", "duration": "Focus", "range": "Far", "description": "You create a convincing visible and audible illusion that fills a near-sized cube within range. Creatures who interact with it make an INT check vs. your spellcasting check to disbelieve.", "source": "Shadowdark RPG V1"},
-  {"name": "Lightning Bolt", "tier": 3, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "You shoot a ray of lightning from your hands. All creatures in a straight line out to far distance take 3d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Magic Circle", "tier": 3, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You conjure a rune circle preventing a chosen creature type from attacking anyone inside the circle.", "source": "Shadowdark RPG V1"},
-  {"name": "Protection from Energy", "tier": 3, "class": "Wizard", "duration": "Focus", "range": "Close", "description": "One creature you touch becomes impervious to the wild fury of the elements. Choose fire, cold, or electricity. The target is immune to harm from energy of the chosen type.", "source": "Shadowdark RPG V1"},
-  {"name": "Sending", "tier": 3, "class": "Wizard", "duration": "Instant", "range": "Unlimited", "description": "You send a brief mental message to any creature with whom you are familiar who is on the same plane.", "source": "Shadowdark RPG V1"},
-  {"name": "Speak with Dead", "tier": 3, "class": "Wizard, Priest", "duration": "Instant", "range": "Close", "description": "A dead body you touch answers your questions in a distant, wheezing voice. You can ask up to three yes or no questions (one at a time). If cast more than once in 24 hours, treat a failed spellcasting check as a critical failure.", "source": "Shadowdark RPG V1"},
-  {"name": "Arcane Eye", "tier": 4, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You conjure an invisible eye that you can see through. It can see in the dark (to near) and flies near per round.", "source": "Shadowdark RPG V1"},
-  {"name": "Cloudkill", "tier": 4, "class": "Wizard", "duration": "5 rounds", "range": "Far", "description": "A putrid cloud of yellow poison appears in a near-sized cube within range. Creatures inside take 2d6 damage per round. Creatures of LV 9 or less fully inside at the start of their turn instantly die.", "source": "Shadowdark RPG V1"},
-  {"name": "Confusion", "tier": 4, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You mesmerize one creature within range. While focused, the creature can't take actions and moves in a random direction each round.", "source": "Shadowdark RPG V1"},
-  {"name": "Control Water", "tier": 4, "class": "Wizard, Priest", "duration": "Focus", "range": "Far", "description": "You control the movement of water up to 100 feet wide and 100 feet deep, moving and shaping it as you choose.", "source": "Shadowdark RPG V1"},
-  {"name": "Dimension Door", "tier": 4, "class": "Wizard", "duration": "Instant", "range": "Self", "description": "You teleport yourself and one willing creature within close range to any point you can see.", "source": "Shadowdark RPG V1"},
-  {"name": "Divination", "tier": 4, "class": "Wizard", "duration": "Instant", "range": "Self", "description": "You ask the GM one yes or no question about a fact. The GM answers truthfully.", "source": "Shadowdark RPG V1"},
-  {"name": "Passwall", "tier": 4, "class": "Wizard", "duration": "5 rounds", "range": "Close", "description": "A tunnel of your height opens in a barrier you touch and lasts for the duration. The passage can be up to near distance in length and must be in a straight line.", "source": "Shadowdark RPG V1"},
-  {"name": "Polymorph", "tier": 4, "class": "Wizard", "duration": "10 rounds", "range": "Close", "description": "You transform a creature you touch into another natural creature of equal or smaller size. Any gear the target carries melds into its new form. The target gains the creature's physical statistics but retains its non-physical statistics. If the target goes to 0 HP it reverts to true form at half its prior HP.", "source": "Shadowdark RPG V1"},
-  {"name": "Resilient Sphere", "tier": 4, "class": "Wizard", "duration": "5 rounds", "range": "Close", "description": "You conjure a weightless, glassy sphere around you that extends out to close range. Nothing can pass through or crush the sphere. You can roll the sphere a near distance on your turn.", "source": "Shadowdark RPG V1"},
-  {"name": "Stoneskin", "tier": 4, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "Your skin becomes like granite. Your armor class becomes 17 (20 on a critical spellcasting check).", "source": "Shadowdark RPG V1"},
-  {"name": "Telekinesis", "tier": 4, "class": "Wizard", "duration": "Focus", "range": "Far", "description": "You lift a creature or object with your mind. Choose a target that weighs 1,000 pounds or less. You can move it a near distance in any direction and hold it in place.", "source": "Shadowdark RPG V1"},
-  {"name": "Wall of Force", "tier": 4, "class": "Wizard", "duration": "5 rounds", "range": "Near", "description": "You lift your hands, conjuring a transparent wall of force. The thin wall must be contiguous and can cover a near-sized area. Nothing on the same plane can physically pass through the wall.", "source": "Shadowdark RPG V1"},
-  {"name": "Antimagic Shell", "tier": 5, "class": "Wizard", "duration": "Focus", "range": "Self", "description": "A near-sized cube of null-magic forms centered on you. Magic doesn't work within the area, including your own spells.", "source": "Shadowdark RPG V1"},
-  {"name": "Create Undead", "tier": 5, "class": "Wizard", "duration": "1 day", "range": "Close", "description": "You summon a wight or wraith under your control. The undead obeys simple commands for the duration.", "source": "Shadowdark RPG V1"},
-  {"name": "Disintegrate", "tier": 5, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "You fire a ray of energy at one creature or nonmagical object. A creature of LV 5 or less is instantly destroyed. A creature of LV 6+ takes 3d8 damage. Non-magical objects are destroyed.", "source": "Shadowdark RPG V1"},
-  {"name": "Hold Monster", "tier": 5, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You paralyze one creature you can see within range. It is aware but can't take actions or move while focused.", "source": "Shadowdark RPG V1"},
-  {"name": "Plane Shift", "tier": 5, "class": "Wizard, Priest", "duration": "Instant", "range": "Close", "description": "You fold space and time, transporting yourself and all willing creatures within close range to a location on another plane of your choice. Unless you have been to your intended location before, you appear in a random place on the destination plane.", "source": "Shadowdark RPG V1"},
-  {"name": "Power Word Kill", "tier": 5, "class": "Wizard", "duration": "Instant", "range": "Near", "description": "You utter the Word of Doom. One creature you target of LV 9 or less dies if it hears you. Treat a failed spellcasting check as a critical failure, and roll the mishap with disadvantage.", "source": "Shadowdark RPG V1"},
-  {"name": "Prismatic Orb", "tier": 5, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "You send a strobing orb of energy streaking toward a target within range. Choose fire, cold, or electricity. The orb deals 3d8 damage. If the energy type is anathema to the target's existence, the orb deals double damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Scrying", "tier": 5, "class": "Wizard", "duration": "Focus", "range": "Self", "description": "You look into a crystal ball or reflecting pool, calling up images of a distant place. For the duration, you can see and hear a creature or location on the same plane. DC 18 to cast if the target is unfamiliar to you. Each round, creatures you view may make a Wisdom check vs. your last spellcasting check to become aware of your observation.", "source": "Shadowdark RPG V1"},
-  {"name": "Shapechange", "tier": 5, "class": "Wizard", "duration": "Focus", "range": "Self", "description": "You transform yourself and any gear into another natural creature you've seen of LV 10 or less. You assume the creature's physical statistics but retain your non-physical statistics. If you go to 0 HP, you revert to your true form at 1 HP.", "source": "Shadowdark RPG V1"},
-  {"name": "Summon Extraplanar", "tier": 5, "class": "Wizard", "duration": "Focus", "range": "Near", "description": "You reach into the outer planes, summoning an elemental or outsider of LV 7 or less. The creature is under your control and acts on your turn. If you lose focus, the creature becomes hostile. You must pass a spellcasting check on your turn to return the creature to the outer planes.", "source": "Shadowdark RPG V1"},
-  {"name": "Teleport", "tier": 5, "class": "Wizard", "duration": "Instant", "range": "Close", "description": "You and any willing creatures within close range teleport to a location you specify on your same plane. You can travel to a known teleportation sigil or a location you've been before. Otherwise, 50% chance of arriving off-target.", "source": "Shadowdark RPG V1"},
-  {"name": "Wish", "tier": 5, "class": "Wizard", "duration": "Instant", "range": "Self", "description": "This mighty spell alters reality. Make a single wish, stating it as exactly as possible. Your wish occurs, as interpreted by the GM. Treat a failed spellcasting check as a critical failure, and roll the mishap with disadvantage.", "source": "Shadowdark RPG V1"},
-  {"name": "Bless", "tier": 1, "class": "Priest", "duration": "Instant", "range": "Close", "description": "One creature you touch gains one luck token.", "source": "Shadowdark RPG V1"},
-  {"name": "Cure Wounds", "tier": 1, "class": "Priest", "duration": "Instant", "range": "Close", "description": "You place your hands on a creature and heal it. Roll 1 + half your level d6s. The target regains that many hit points.", "source": "Shadowdark RPG V1"},
-  {"name": "Holy Weapon", "tier": 1, "class": "Priest", "duration": "5 rounds", "range": "Close", "description": "One weapon you touch becomes magical. It grants +1 to attack and damage rolls for the duration.", "source": "Shadowdark RPG V1"},
-  {"name": "Shield of Faith", "tier": 1, "class": "Priest", "duration": "5 rounds", "range": "Self", "description": "A protective force wrought of your holy conviction surrounds you. You gain a +2 bonus to your armor class for the duration.", "source": "Shadowdark RPG V1"},
-  {"name": "Turn Undead", "tier": 1, "class": "Priest", "duration": "Instant", "range": "Near", "description": "You rebuke undead creatures, forcing them to flee. You must present a holy symbol. Undead within near make a CHA check vs. your spellcasting check. On a failure by 10+ points (if equal to or less than your level), the undead is destroyed. Otherwise, on a fail, it flees for 5 rounds.", "source": "Shadowdark RPG V1"},
-  {"name": "Augury", "tier": 2, "class": "Priest", "duration": "Instant", "range": "Self", "description": "You cast lots to divine the outcome of a planned action. Ask the GM one question about a course of action. The GM answers truthfully using one of: good omen, bad omen, or uncertain omen.", "source": "Shadowdark RPG V1"},
-  {"name": "Blind/Deafen", "tier": 2, "class": "Priest", "duration": "Focus", "range": "Near", "description": "You blind or deafen one creature you can see. It has disadvantage on tasks requiring the affected sense while focused.", "source": "Shadowdark RPG V1"},
-  {"name": "Cleansing Weapon", "tier": 2, "class": "Priest", "duration": "5 rounds", "range": "Close", "description": "One weapon you touch deals an additional 1d4 damage for the duration (1d6 against undead and demons).", "source": "Shadowdark RPG V1"},
-  {"name": "Smite", "tier": 2, "class": "Priest", "duration": "Instant", "range": "Near", "description": "You call down punishing flames on a creature you can see within range. It takes 1d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Zone of Truth", "tier": 2, "class": "Priest", "duration": "Focus", "range": "Near", "description": "You compel a creature you can see to speak truth. It can't utter a deliberate lie while within range.", "source": "Shadowdark RPG V1"},
-  {"name": "Command", "tier": 3, "class": "Priest", "duration": "Focus", "range": "Far", "description": "You issue a single verbal command to one creature you can see. The creature obeys the command while focused. The command must be a single word.", "source": "Shadowdark RPG V1"},
-  {"name": "Lay to Rest", "tier": 3, "class": "Priest", "duration": "Instant", "range": "Close", "description": "You instantly destroy one undead creature of LV 9 or less. If the undead's level is higher, it takes 4d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Mass Cure", "tier": 3, "class": "Priest", "duration": "Instant", "range": "Near", "description": "All allies within near range regain 2d6 hit points.", "source": "Shadowdark RPG V1"},
-  {"name": "Rebuke Unholy", "tier": 3, "class": "Priest", "duration": "Instant", "range": "Near", "description": "You rebuke creatures who oppose your alignment, forcing them to flee. You must present a holy symbol. If you are lawful or neutral, this spell affects demons, devils, and outsiders. If you are chaotic, this spell affects angels and natural creatures of the wild. Affected creatures make a CHA check vs. your spellcasting check. Fail by 10+ (if equal to or less than your level): destroyed. Otherwise: flees for 5 rounds.", "source": "Shadowdark RPG V1"},
-  {"name": "Restoration", "tier": 3, "class": "Priest", "duration": "Instant", "range": "Close", "description": "With the touch of your hands, you expunge curses and illnesses. One curse, illness, or affliction of your choice affecting the target creature ends.", "source": "Shadowdark RPG V1"},
-  {"name": "Commune", "tier": 4, "class": "Priest", "duration": "Instant", "range": "Self", "description": "You commune with your deity. Ask your god up to three yes or no questions. The GM answers truthfully using the knowledge your deity possesses. Deities are mighty, but not omniscient.", "source": "Shadowdark RPG V1"},
-  {"name": "Flame Strike", "tier": 4, "class": "Priest", "duration": "Instant", "range": "Far", "description": "You call down a holy pillar of fire on a point within range. All creatures within a near-sized cylinder take 2d6 damage.", "source": "Shadowdark RPG V1"},
-  {"name": "Pillar of Salt", "tier": 4, "class": "Priest", "duration": "Focus", "range": "Near", "description": "A creature you target turns into a statue made of hardened salt. You can target a creature of LV 5 or less. If you successfully focus on this spell for 3 rounds in a row, the transformation becomes permanent.", "source": "Shadowdark RPG V1"},
-  {"name": "Regenerate", "tier": 4, "class": "Priest", "duration": "Focus", "range": "Close", "description": "A creature you touch regains 1d4 hit points on your turn for the duration. This spell also regrows lost body parts.", "source": "Shadowdark RPG V1"},
-  {"name": "Wrath", "tier": 4, "class": "Priest", "duration": "10 rounds", "range": "Self", "description": "Your weapons become magical +2 and deal an additional d8 damage for the spell's duration.", "source": "Shadowdark RPG V1"},
-  {"name": "Divine Vengeance", "tier": 5, "class": "Priest", "duration": "10 rounds", "range": "Self", "description": "You become a divine avatar. You can fly near per round, your weapons are magical, and you gain +4 to attack and damage rolls for the duration.", "source": "Shadowdark RPG V1"},
-  {"name": "Dominion", "tier": 5, "class": "Priest", "duration": "10 rounds", "range": "Near", "description": "You summon beings with a combined LV of 16 or less. Lawful and neutral casters summon angels; chaotic casters summon demons. They obey simple commands.", "source": "Shadowdark RPG V1"},
-  {"name": "Heal", "tier": 5, "class": "Priest", "duration": "Instant", "range": "Close", "description": "One creature you touch is healed to its full hit point maximum. You can't cast this spell again until you complete a rest.", "source": "Shadowdark RPG V1"},
-  {"name": "Judgment", "tier": 5, "class": "Priest", "duration": "5 rounds", "range": "Close", "description": "You banish a creature of LV 10 or less to stand before your god's judgment. At the end of the duration, the creature returns. If its actions were pleasing to the deity, it returns healed. If angering, it returns at 1 HP.", "source": "Shadowdark RPG V1"},
-  {"name": "Prophecy", "tier": 5, "class": "Priest", "duration": "Instant", "range": "Self", "description": "You commune directly with your god for guidance. Ask the GM one question. The GM answers truthfully using the knowledge your god possesses. You cannot cast this spell again until you complete penance.", "source": "Shadowdark RPG V1"},
-  {"name": "Death Maw", "tier": 3, "class": "Priest", "duration": "10 rounds", "range": "Close", "description": "Caster's maw becomes abnormally large and swallows the target. The target takes 2d6 damage at the start of their turns. The target can escape if 20 or more damage is dealt to the caster in one attack.", "source": "Shadowdark Necronomicon"},
-  {"name": "Deathless Veil", "tier": 3, "class": "Priest", "duration": "Instant", "range": "Close", "description": "The target is protected from death. The first time the target is killed, they are instead reduced to 1 HP.", "source": "Shadowdark Necronomicon"},
-  {"name": "Detect Undead", "tier": 1, "class": "Priest", "duration": "Instant", "range": "Self", "description": "The caster can sense the presence of undead within double near range.", "source": "Shadowdark Necronomicon"},
-  {"name": "Fangs of Dread", "tier": 3, "class": "Priest", "duration": "5 rounds", "range": "Self", "description": "The caster grows fangs like vampires dripping with necrotic sludge. A bite attack (+5 STR/DEX) against a Close target deals 1d6 damage at the start of the target's turn.", "source": "Shadowdark Necronomicon"},
-  {"name": "Ghoulish Radiance", "tier": 3, "class": "Priest", "duration": "Focus", "range": "Near", "description": "A ghoulish green orb of light appears mid air. All undead within Near range of the light have advantage on their attack rolls.", "source": "Shadowdark Necronomicon"},
-  {"name": "Heart Wrench", "tier": 2, "class": "Priest", "duration": "Focus", "range": "Near", "description": "The target feels cold hands gripping its heart and takes 1d4 damage at the start of their turn. If the spell kills them, their heart appears in the caster's hand.", "source": "Shadowdark Necronomicon"},
-  {"name": "Sickening Ray", "tier": 2, "class": "Priest", "duration": "Focus", "range": "Far", "description": "A single creature gets hit with a stream of sickly green energy. They vomit blood and cannot take turns.", "source": "Shadowdark Necronomicon"},
-  {"name": "Freeze", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Far", "description": "One creature is hit by a freezing cold energy and cannot move until the end of their next turn.", "source": "Shadowdark Necronomicon"},
-  {"name": "Ghostly Armour", "tier": 3, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "The caster can only be damaged by silvered or magical weapons and spells.", "source": "Shadowdark Necronomicon"},
-  {"name": "Haunt", "tier": 1, "class": "Wizard", "duration": "1 day", "range": "Near", "description": "The target is haunted by cosmic horrors and cannot gain the benefits of a Rest.", "source": "Shadowdark Necronomicon"},
-  {"name": "Hunger of Oedinn", "tier": 2, "class": "Wizard", "duration": "Instant", "range": "Near", "description": "A column of gnashing teeth comes out of the caster's hand and deals 2d6 damage.", "source": "Shadowdark Necronomicon"},
-  {"name": "Necrotic Armour", "tier": 3, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "The target's AC goes up by 3. Whenever a melee weapon attack hits the target, the attacker's blood comes out of their orifices in red mist form and they lose 1d4 HP.", "source": "Shadowdark Necronomicon"},
-  {"name": "Shadowheart", "tier": 4, "class": "Wizard", "duration": "10 rounds", "range": "Self", "description": "The caster turns incorporeal and can only be damaged by magic weapons and spells.", "source": "Shadowdark Necronomicon"},
-  {"name": "Summon Undead", "tier": 1, "class": "Wizard", "duration": "Instant", "range": "Close", "description": "The caster summons one undead creature that obeys them. The Level of the summoned undead depends on the Tier the spell is cast at (Tier 1-5). The tier must be declared before casting. The caster cannot have more than one summoned undead at the same time.", "source": "Shadowdark Necronomicon", "_note": "Variable tier spell (1-5); tier here represents minimum tier"},
-  {"name": "Bind", "tier": 2, "class": "Evoker", "duration": "5 rounds", "range": "Far", "description": "Creatures in a near-sized cube within range are immobilized by magical chains, vines, or similar. Each must succeed on a STR check vs. your spellcasting check on their turn to get free. They take 1d4 damage for each failed escape.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Brand", "tier": 2, "class": "Evoker", "duration": "Focus", "range": "Far", "description": "You imprint an enemy with a burning mark, dealing 1d6 initial damage and 1d6 damage per round. The mark emits light out to near and remains as long as you focus.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Essence Storm", "tier": 5, "class": "Evoker", "duration": "Focus", "range": "Near", "description": "You surround a foe in a storm of magic, dealing 4d6 damage to it and 1d6 damage to each creature within close of it. This repeats each time you focus. If you successfully focus on this spell for 3 rounds in a row, the target is ripped apart and destroyed.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Force Dart", "tier": 1, "class": "Evoker", "duration": "Instant", "range": "Far", "description": "You fling a projectile of pure energy, dealing 1d6 damage to one target.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Overwhelm", "tier": 4, "class": "Evoker", "duration": "Instant", "range": "Near", "description": "Your eyes glow, your voice loudens, and the ground around you vibrates. Enemies within near of you take 3d6 damage and must make a CHA check vs. your spellcasting check. If they fail, they flee from you for 5 rounds unless immune to morale checks.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Penetrating Beam", "tier": 3, "class": "Evoker", "duration": "Instant", "range": "Far", "description": "You fire a beam of energy from your hands, hitting all creatures in a straight line out to a far distance. Creatures hit by the beam take 3d6 damage.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Repulse", "tier": 1, "class": "Evoker", "duration": "Instant", "range": "Close", "description": "You emit a burst of energy in all directions, dealing 1d4 damage to creatures and objects within close range and pushing them a close distance away from you.", "source": "Letters from the Dark Vol. 1"},
-  {"name": "Spell Burst", "tier": 3, "class": "Evoker", "duration": "Instant", "range": "Far", "description": "A point you can see within range explodes with magic. All creatures in a near-sized cube around that point take 3d6 damage.", "source": "Letters from the Dark Vol. 1"}
+  {
+    "name": "Alarm",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You touch an object or area up to near-sized to set a magical alarm. You instantly know when a creature touches or enters the warded area.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Burning Hands",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You unleash a circle of flame from your hands. Choose a target within close range. It takes 1d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Charm Person",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "1d8 days",
+    "range": "Near",
+    "description": "You beguile one humanoid of LV 2 or less. It treats you as a trusted friend for the duration, but knows it was charmed afterward.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Detect Magic",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You sense the presence of magic within near range. The GM tells you the location but not the nature of each magical aura you sense.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Feather Fall",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You slow your rate of descent to land safely if you fall.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Floating Disk",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You create a magical floating disk of force that follows you. The disk carries up to 20 gear slots of equipment and hovers at waist height.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Hold Portal",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You hold a door, gate, or portal closed. A creature trying to open it must make a STR check vs. your spellcasting check.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Light",
+    "tier": 1,
+    "class": "Wizard, Priest",
+    "duration": "1 hour real time",
+    "range": "Close",
+    "description": "One object you touch glows with bright light that fills a near distance. Touch it again to end the spell.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Mage Armor",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "Your armor class becomes 14 (18 on a critical spellcasting check).",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Magic Missile",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You fire a glowing bolt that hits a target of your choice. It deals 1d4 damage. You make the spellcasting check with advantage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Protection from Evil",
+    "tier": 1,
+    "class": "Wizard, Priest",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "Chaotic beings have disadvantage on attack rolls and hostile spellcasting checks against the target. These beings also can't possess, compel, or beguile the target. When cast on an already-possessed target, the possessing entity makes a CHA check vs. the last spellcasting check. On a failure, the entity is expelled.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Sleep",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You weave a lulling spell that fills a near-sized cube extending from you. Choose a number of living creatures in the area up to your level. Those creatures fall into a deep sleep if they are LV 2 or less. Vigorous shaking or being injured wakes them.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Acid Arrow",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "A corrosive bolt of acid hits one target. The target takes 1d6 damage, and continues to take 1d6 damage each round while the spell is focused.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Alter Self",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "Your body takes on new features. Choose one: water-breathing, natural weapons (d6 damage), darkvision, or non-humanoid appearance.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Detect Thoughts",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You detect the surface thoughts of one creature within range. Each round you maintain focus, the GM tells you the creature's immediate thoughts.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Fixed Object",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "An object you touch weighing up to 5 lbs becomes fixed in its current position. Nothing can move it while focused.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Hold Person",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You paralyze one humanoid creature of LV 4 or less. It is aware but can't take actions or move while focused.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Invisibility",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "A creature you touch becomes invisible for the duration. The spell ends if the target attacks or casts a spell.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Knock",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A door, gate, or other portal instantly opens, defeating mundane locks. The sound of opening can be heard at far range.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Levitate",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You float a near distance vertically per round. You can hold yourself in place by grabbing something solid.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Mirror Image",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "You create a number of illusory duplicates equal to half your level (minimum 1). Attackers must randomly determine which image to target. Duplicates are destroyed when targeted.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Misty Step",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You teleport a near distance to an unoccupied space you can see.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Silence",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You magically mute sound in a near cube within the spell's range. Creatures inside are deafened, and any sounds they create cannot be heard.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Web",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "You create a near-sized cube of sticky, dense spider web within range. A creature stuck in the web can't move and must succeed on a Strength check vs. your spellcasting check to free itself.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Animate Dead",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You touch the remains of a humanoid creature, animating it as a skeleton or zombie under your control. The undead obeys simple commands.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Dispel Magic",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You end one spell affecting a target you can see within range.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Fabricate",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You turn raw materials into a finished work. The work can be as complex as a lockbox or simple furniture.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Fireball",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You hurl a tiny bead of fire that erupts at a point within range. All creatures within a near-sized cube of that point take 4d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Fly",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "You can fly a near distance per round. You can hover in place.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Gaseous Form",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You and your gear transform into a cloud of smoke. You can move a near distance each round and fit through small gaps.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Illusion",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You create a convincing visible and audible illusion that fills a near-sized cube within range. Creatures who interact with it make an INT check vs. your spellcasting check to disbelieve.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Lightning Bolt",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You shoot a ray of lightning from your hands. All creatures in a straight line out to far distance take 3d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Magic Circle",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You conjure a rune circle preventing a chosen creature type from attacking anyone inside the circle.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Protection from Energy",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "One creature you touch becomes impervious to the wild fury of the elements. Choose fire, cold, or electricity. The target is immune to harm from energy of the chosen type.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Sending",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Unlimited",
+    "description": "You send a brief mental message to any creature with whom you are familiar who is on the same plane.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Speak with Dead",
+    "tier": 3,
+    "class": "Wizard, Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "A dead body you touch answers your questions in a distant, wheezing voice. You can ask up to three yes or no questions (one at a time). If cast more than once in 24 hours, treat a failed spellcasting check as a critical failure.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Arcane Eye",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You conjure an invisible eye that you can see through. It can see in the dark (to near) and flies near per round.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Cloudkill",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "A putrid cloud of yellow poison appears in a near-sized cube within range. Creatures inside take 2d6 damage per round. Creatures of LV 9 or less fully inside at the start of their turn instantly die.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Confusion",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You mesmerize one creature within range. While focused, the creature can't take actions and moves in a random direction each round.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Control Water",
+    "tier": 4,
+    "class": "Wizard, Priest",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You control the movement of water up to 100 feet wide and 100 feet deep, moving and shaping it as you choose.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Dimension Door",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You teleport yourself and one willing creature within close range to any point you can see.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Divination",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You ask the GM one yes or no question about a fact. The GM answers truthfully.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Passwall",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "A tunnel of your height opens in a barrier you touch and lasts for the duration. The passage can be up to near distance in length and must be in a straight line.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Polymorph",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "You transform a creature you touch into another natural creature of equal or smaller size. Any gear the target carries melds into its new form. The target gains the creature's physical statistics but retains its non-physical statistics. If the target goes to 0 HP it reverts to true form at half its prior HP.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Resilient Sphere",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "You conjure a weightless, glassy sphere around you that extends out to close range. Nothing can pass through or crush the sphere. You can roll the sphere a near distance on your turn.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Stoneskin",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "Your skin becomes like granite. Your armor class becomes 17 (20 on a critical spellcasting check).",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Telekinesis",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You lift a creature or object with your mind. Choose a target that weighs 1,000 pounds or less. You can move it a near distance in any direction and hold it in place.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Wall of Force",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "You lift your hands, conjuring a transparent wall of force. The thin wall must be contiguous and can cover a near-sized area. Nothing on the same plane can physically pass through the wall.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Antimagic Shell",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "A near-sized cube of null-magic forms centered on you. Magic doesn't work within the area, including your own spells.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Create Undead",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You summon a wight or wraith under your control. The undead obeys simple commands for the duration.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Disintegrate",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You fire a ray of energy at one creature or nonmagical object. A creature of LV 5 or less is instantly destroyed. A creature of LV 6+ takes 3d8 damage. Non-magical objects are destroyed.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Hold Monster",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You paralyze one creature you can see within range. It is aware but can't take actions or move while focused.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Plane Shift",
+    "tier": 5,
+    "class": "Wizard, Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You fold space and time, transporting yourself and all willing creatures within close range to a location on another plane of your choice. Unless you have been to your intended location before, you appear in a random place on the destination plane.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Power Word Kill",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You utter the Word of Doom. One creature you target of LV 9 or less dies if it hears you. Treat a failed spellcasting check as a critical failure, and roll the mishap with disadvantage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Prismatic Orb",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You send a strobing orb of energy streaking toward a target within range. Choose fire, cold, or electricity. The orb deals 3d8 damage. If the energy type is anathema to the target's existence, the orb deals double damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Scrying",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You look into a crystal ball or reflecting pool, calling up images of a distant place. For the duration, you can see and hear a creature or location on the same plane. DC 18 to cast if the target is unfamiliar to you. Each round, creatures you view may make a Wisdom check vs. your last spellcasting check to become aware of your observation.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Shapechange",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You transform yourself and any gear into another natural creature you've seen of LV 10 or less. You assume the creature's physical statistics but retain your non-physical statistics. If you go to 0 HP, you revert to your true form at 1 HP.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Summon Extraplanar",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You reach into the outer planes, summoning an elemental or outsider of LV 7 or less. The creature is under your control and acts on your turn. If you lose focus, the creature becomes hostile. You must pass a spellcasting check on your turn to return the creature to the outer planes.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Teleport",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You and any willing creatures within close range teleport to a location you specify on your same plane. You can travel to a known teleportation sigil or a location you've been before. Otherwise, 50% chance of arriving off-target.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Wish",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "This mighty spell alters reality. Make a single wish, stating it as exactly as possible. Your wish occurs, as interpreted by the GM. Treat a failed spellcasting check as a critical failure, and roll the mishap with disadvantage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Bless",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "One creature you touch gains one luck token.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Cure Wounds",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You place your hands on a creature and heal it. Roll 1 + half your level d6s. The target regains that many hit points.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Holy Weapon",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "One weapon you touch becomes magical. It grants +1 to attack and damage rolls for the duration.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Shield of Faith",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "A protective force wrought of your holy conviction surrounds you. You gain a +2 bonus to your armor class for the duration.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Turn Undead",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You rebuke undead creatures, forcing them to flee. You must present a holy symbol. Undead within near make a CHA check vs. your spellcasting check. On a failure by 10+ points (if equal to or less than your level), the undead is destroyed. Otherwise, on a fail, it flees for 5 rounds.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Augury",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You cast lots to divine the outcome of a planned action. Ask the GM one question about a course of action. The GM answers truthfully using one of: good omen, bad omen, or uncertain omen.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Blind/Deafen",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You blind or deafen one creature you can see. It has disadvantage on tasks requiring the affected sense while focused.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Cleansing Weapon",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "One weapon you touch deals an additional 1d4 damage for the duration (1d6 against undead and demons).",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Smite",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You call down punishing flames on a creature you can see within range. It takes 1d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Zone of Truth",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You compel a creature you can see to speak truth. It can't utter a deliberate lie while within range.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Command",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You issue a single verbal command to one creature you can see. The creature obeys the command while focused. The command must be a single word.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Lay to Rest",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You instantly destroy one undead creature of LV 9 or less. If the undead's level is higher, it takes 4d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Mass Cure",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All allies within near range regain 2d6 hit points.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Rebuke Unholy",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You rebuke creatures who oppose your alignment, forcing them to flee. You must present a holy symbol. If you are lawful or neutral, this spell affects demons, devils, and outsiders. If you are chaotic, this spell affects angels and natural creatures of the wild. Affected creatures make a CHA check vs. your spellcasting check. Fail by 10+ (if equal to or less than your level): destroyed. Otherwise: flees for 5 rounds.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Restoration",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "With the touch of your hands, you expunge curses and illnesses. One curse, illness, or affliction of your choice affecting the target creature ends.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Commune",
+    "tier": 4,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You commune with your deity. Ask your god up to three yes or no questions. The GM answers truthfully using the knowledge your deity possesses. Deities are mighty, but not omniscient.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Flame Strike",
+    "tier": 4,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You call down a holy pillar of fire on a point within range. All creatures within a near-sized cylinder take 2d6 damage.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Pillar of Salt",
+    "tier": 4,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "A creature you target turns into a statue made of hardened salt. You can target a creature of LV 5 or less. If you successfully focus on this spell for 3 rounds in a row, the transformation becomes permanent.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Regenerate",
+    "tier": 4,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "A creature you touch regains 1d4 hit points on your turn for the duration. This spell also regrows lost body parts.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Wrath",
+    "tier": 4,
+    "class": "Priest",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "Your weapons become magical +2 and deal an additional d8 damage for the spell's duration.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Divine Vengeance",
+    "tier": 5,
+    "class": "Priest",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You become a divine avatar. You can fly near per round, your weapons are magical, and you gain +4 to attack and damage rolls for the duration.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Dominion",
+    "tier": 5,
+    "class": "Priest",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You summon beings with a combined LV of 16 or less. Lawful and neutral casters summon angels; chaotic casters summon demons. They obey simple commands.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Heal",
+    "tier": 5,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "One creature you touch is healed to its full hit point maximum. You can't cast this spell again until you complete a rest.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Judgment",
+    "tier": 5,
+    "class": "Priest",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "You banish a creature of LV 10 or less to stand before your god's judgment. At the end of the duration, the creature returns. If its actions were pleasing to the deity, it returns healed. If angering, it returns at 1 HP.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Prophecy",
+    "tier": 5,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You commune directly with your god for guidance. Ask the GM one question. The GM answers truthfully using the knowledge your god possesses. You cannot cast this spell again until you complete penance.",
+    "source": "Shadowdark RPG V1"
+  },
+  {
+    "name": "Death Maw",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "Caster's maw becomes abnormally large and swallows the target. The target takes 2d6 damage at the start of their turns. The target can escape if 20 or more damage is dealt to the caster in one attack.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Deathless Veil",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "The target is protected from death. The first time the target is killed, they are instead reduced to 1 HP.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Detect Undead",
+    "tier": 1,
+    "class": "Priest",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "The caster can sense the presence of undead within double near range.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Fangs of Dread",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "The caster grows fangs like vampires dripping with necrotic sludge. A bite attack (+5 STR/DEX) against a Close target deals 1d6 damage at the start of the target's turn.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Ghoulish Radiance",
+    "tier": 3,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "A ghoulish green orb of light appears mid air. All undead within Near range of the light have advantage on their attack rolls.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Heart Wrench",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "The target feels cold hands gripping its heart and takes 1d4 damage at the start of their turn. If the spell kills them, their heart appears in the caster's hand.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Sickening Ray",
+    "tier": 2,
+    "class": "Priest",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "A single creature gets hit with a stream of sickly green energy. They vomit blood and cannot take turns.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Freeze",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "One creature is hit by a freezing cold energy and cannot move until the end of their next turn.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Ghostly Armour",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "The caster can only be damaged by silvered or magical weapons and spells.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Haunt",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "1 day",
+    "range": "Near",
+    "description": "The target is haunted by cosmic horrors and cannot gain the benefits of a Rest.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Hunger of Oedinn",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A column of gnashing teeth comes out of the caster's hand and deals 2d6 damage.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Necrotic Armour",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "The target's AC goes up by 3. Whenever a melee weapon attack hits the target, the attacker's blood comes out of their orifices in red mist form and they lose 1d4 HP.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Shadowheart",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "The caster turns incorporeal and can only be damaged by magic weapons and spells.",
+    "source": "Shadowdark Necronomicon"
+  },
+  {
+    "name": "Summon Undead",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "The caster summons one undead creature that obeys them. The Level of the summoned undead depends on the Tier the spell is cast at (Tier 1-5). The tier must be declared before casting. The caster cannot have more than one summoned undead at the same time.",
+    "source": "Shadowdark Necronomicon",
+    "_note": "Variable tier spell (1-5); tier here represents minimum tier"
+  },
+  {
+    "name": "Bind",
+    "tier": 2,
+    "class": "Evoker",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "Creatures in a near-sized cube within range are immobilized by magical chains, vines, or similar. Each must succeed on a STR check vs. your spellcasting check on their turn to get free. They take 1d4 damage for each failed escape.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Brand",
+    "tier": 2,
+    "class": "Evoker",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You imprint an enemy with a burning mark, dealing 1d6 initial damage and 1d6 damage per round. The mark emits light out to near and remains as long as you focus.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Essence Storm",
+    "tier": 5,
+    "class": "Evoker",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You surround a foe in a storm of magic, dealing 4d6 damage to it and 1d6 damage to each creature within close of it. This repeats each time you focus. If you successfully focus on this spell for 3 rounds in a row, the target is ripped apart and destroyed.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Force Dart",
+    "tier": 1,
+    "class": "Evoker",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You fling a projectile of pure energy, dealing 1d6 damage to one target.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Overwhelm",
+    "tier": 4,
+    "class": "Evoker",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Your eyes glow, your voice loudens, and the ground around you vibrates. Enemies within near of you take 3d6 damage and must make a CHA check vs. your spellcasting check. If they fail, they flee from you for 5 rounds unless immune to morale checks.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Penetrating Beam",
+    "tier": 3,
+    "class": "Evoker",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "You fire a beam of energy from your hands, hitting all creatures in a straight line out to a far distance. Creatures hit by the beam take 3d6 damage.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Repulse",
+    "tier": 1,
+    "class": "Evoker",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You emit a burst of energy in all directions, dealing 1d4 damage to creatures and objects within close range and pushing them a close distance away from you.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Spell Burst",
+    "tier": 3,
+    "class": "Evoker",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A point you can see within range explodes with magic. All creatures in a near-sized cube around that point take 3d6 damage.",
+    "source": "Letters from the Dark Vol. 1"
+  },
+  {
+    "name": "Fire Bolt",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A bolt of fire strikes one target within near range for 1d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Blinding Flash",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A burst of white light erupts. One target makes a CON save (DC 12) or is blinded for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Globe of Daylight",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "A floating orb of bright light illuminates a near-sized area. You can move it up to near each round as a free action.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sense Magic",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You detect the presence and location of all active magic within near range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Repel Animals",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "Natural animals of 2 HD or fewer will not willingly approach you for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Shadow Cloak",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You blend into shadows and dim light. Advantage on stealth checks while in low-light conditions.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Chill Touch",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "Ice-cold energy deals 1d4 damage to one creature you touch. That creature cannot regain HP until the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Force Shield",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "A barrier of unseen force grants you +3 AC until the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Ventriloquism",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You project your voice to appear to come from any point within near range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Befuddle",
+    "tier": 1,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "One creature of LV 2 or less becomes too confused to act. It can only move on its turn for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Fireball (Lesser)",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "Fire erupts in a close-sized area within far range. All creatures inside take 2d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Levitate",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You float vertically a near distance per round and can hold yourself in place by grabbing something solid.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Invisibility",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "A creature you touch becomes invisible. Ends if they attack or cast a spell.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wink-Out",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You teleport to any unoccupied space within near range you can see.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Fear",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a WIS save (DC 12) or flees from you for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Carpet of Adhesion",
+    "tier": 2,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "A near-sized floor area becomes supernaturally sticky. Creatures inside make a STR save (DC 12) each round or cannot move.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Fireball",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A bead of fire erupts in a near-sized area within far range. All creatures inside take 4d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Fly",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "You fly a near distance per round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Dispel Magic",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You end one active spell on a target you can see within near range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Paralysis",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "One humanoid of LV 4 or less is paralyzed. They are aware but cannot act while focused.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Lightning Arc",
+    "tier": 3,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A bolt of lightning shoots from your hands in a straight line to far range. All creatures in the line take 3d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Incinerate",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A column of fire engulfs one creature within far range for 6d6 damage. If reduced to 0 HP, the body is reduced to ash.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wall of Fire",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "A near-long wall of roaring flame appears within far range. Creatures that pass through take 4d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Protection Circle",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You inscribe a magic circle. Choose one creature type (undead, demons, or natural beasts) \u2014 they cannot enter or target those inside.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Globe of Silence",
+    "tier": 4,
+    "class": "Wizard",
+    "duration": "10 rounds",
+    "range": "Far",
+    "description": "No sound may enter or exit a near-sized sphere centered within far range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Meteor Strike",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A fiery boulder crashes from above. All creatures in a near-sized area within far range take 8d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Annihilate",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a CON save (DC 15) or is instantly slain. On a success, they take 6d6 damage instead.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Time Freeze",
+    "tier": 5,
+    "class": "Wizard",
+    "duration": "1d4 rounds",
+    "range": "Self",
+    "description": "Time stops for everything except you for 1d4 rounds. You may act normally; all else is frozen.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Bolt",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A focused bolt of your chosen element strikes one target within near range for 1d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Shroud",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "Your body radiates elemental energy. Creatures that strike you in melee take 1d4 damage of your element's type.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Sense",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You sense disturbances in your element within far range and know their direction and rough distance.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Calm Element",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You suppress a natural manifestation of your element within near range \u2014 still water, extinguish fire, stop wind, or halt a tremor.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Armor",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "Your skin crackles with elemental energy. You gain +2 AC for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Blast",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A surge of elemental force hits one creature. It makes a STR save (DC 12) or is pushed near and knocked prone.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Communication",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You speak to elementals of your type within near range. They understand you, though they are not compelled to cooperate.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Call Element",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A near-sized volume of your element appears in an open space within near range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Ward",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You grant yourself resistance to your element for the duration, taking half damage from sources of that type.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Minor Elemental Form",
+    "tier": 1,
+    "class": "Warlock",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You gain one benefit based on your element \u2014 Air: fall any distance safely; Earth: ignore difficult terrain; Fire: your touch ignites flammable objects; Water: breathe and move freely underwater.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Burst",
+    "tier": 2,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Elemental energy erupts in a close-sized area within near range. All creatures inside take 2d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Grasp",
+    "tier": 2,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "Tendrils of your element seize one creature within near range. It makes a STR save (DC 12) or is restrained for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summon Lesser Elemental",
+    "tier": 2,
+    "class": "Warlock",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "A lesser elemental of your type appears and obeys you. It has HP equal to twice your level and deals 1d6 damage per strike.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Speed",
+    "tier": 2,
+    "class": "Warlock",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "You move with supernatural swiftness. Your speed doubles and you may move and act in the same round without penalty.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Shape",
+    "tier": 2,
+    "class": "Warlock",
+    "duration": "5 rounds",
+    "range": "Self",
+    "description": "You gain a physical quality of your element \u2014 Air: fly near/round; Earth: +3 AC and ignore knockback; Fire: melee attacks deal +1d6 fire damage; Water: move through water freely and breathe underwater.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Torrent",
+    "tier": 3,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A massive surge of your element blasts a near-sized area within far range. All creatures inside take 3d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summon Elemental",
+    "tier": 3,
+    "class": "Warlock",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "A full elemental of your type appears within close range. It has HP equal to 5 times your level, deals 2d6 damage per strike, and serves for 1 hour.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Body",
+    "tier": 3,
+    "class": "Warlock",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You become partially elemental. You are immune to your chosen element, and your melee attacks deal +1d6 elemental damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Control",
+    "tier": 3,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "You command a near-sized body of your element to move and shape itself as you direct \u2014 reshape a river, form a wall of stone, direct a fire's path, etc.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Storm",
+    "tier": 4,
+    "class": "Warlock",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "A howling storm of your element fills a near-sized area within far range. All creatures inside take 4d6 damage per round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summon Greater Elemental",
+    "tier": 4,
+    "class": "Warlock",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "A towering elemental of your type appears. It has HP equal to 8 times your level, deals 3d6 damage per strike, and serves until dismissed.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Avatar",
+    "tier": 4,
+    "class": "Warlock",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You transform into a being of pure elemental force. AC 16, immune to your element, melee attacks deal an additional 2d6 elemental damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cataclysm",
+    "tier": 5,
+    "class": "Warlock",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "Your element erupts catastrophically. All creatures in a near-sized area take 8d6 damage and suffer an element-specific condition \u2014 Air: deafened 1 day; Earth: restrained under rubble; Fire: burning for 2d6/round until extinguished; Water: drowning (incapacitated).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Elemental Ascension",
+    "tier": 5,
+    "class": "Warlock",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You become a true elemental. AC 18, immune to all non-magical damage and your element, fly or burrow near each round, melee attacks deal 4d6 elemental damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mend Flesh",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 1d4 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cause Fear",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a WIS save (DC 12) or flees from you for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Befriend Animal",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "One natural animal of 2 HD or fewer becomes friendly toward you for 1 hour and will follow simple requests.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Spoil",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch food or drink. It becomes foul \u2014 anyone who consumes it has disadvantage on all rolls for 1 hour (CON save DC 12 to resist).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Commune with Spirits",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You ask one question of a nearby spirit or ancestral presence. The GM answers as best the spirit knows.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cackle Curse",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature within near range makes a WIS save (DC 12) or falls into helpless laughter for 1 round, unable to act.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Nightvision",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You see clearly in total darkness to near range for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Poison Touch",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "A creature you touch makes a CON save (DC 12) or takes 1d6 poison damage per round for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Witch Sight",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You see invisible creatures, detect active magic, and sense curses on creatures or objects within near range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Entangle",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "Vines and roots erupt in a close-sized area within near range. All creatures inside make a STR save (DC 12) or are restrained.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sleep",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You weave a lulling hex. Up to 2 creatures of LV 2 or less that you can see within near range fall into deep sleep. Injury wakes them.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Object Read",
+    "tier": 1,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch an object and receive impressions of its recent history \u2014 who held it, strong emotions, and major events in its presence.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Evil Eye",
+    "tier": 2,
+    "class": "Witch",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You fix your gaze on one creature within near range. It has disadvantage on all rolls for the duration. CON save (DC 12) to resist.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Polymorph (Hex)",
+    "tier": 2,
+    "class": "Witch",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "You transform one creature of LV 3 or less into a small animal of your choice. CON save (DC 12) resists. Reverts when it takes damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Bond",
+    "tier": 2,
+    "class": "Witch",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "You link your senses to a willing creature you touch. You see and hear through them for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Shadow Walk",
+    "tier": 2,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You and up to two willing creatures step into shadows and emerge from any shadow you can see within far range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Poison Mist",
+    "tier": 2,
+    "class": "Witch",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "A cloud of greenish vapour fills a close-sized area within near range. All creatures inside take 2d6 poison damage per round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Slay Living",
+    "tier": 3,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature within near range makes a CON save (DC 13) or takes 4d6 necrotic damage. If slain, it cannot be raised as undead.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summon Demons",
+    "tier": 3,
+    "class": "Witch",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "You call 1d4 lesser demons that serve you for 1 hour. Each has 8 HP and deals 1d6 damage per strike.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Flesh to Stone",
+    "tier": 3,
+    "class": "Witch",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "One creature within near range makes a CON save (DC 13) or turns to stone. Ends when you dispel it or they succeed on a nightly save.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Speak with Dead",
+    "tier": 3,
+    "class": "Witch",
+    "duration": "10 minutes",
+    "range": "Close",
+    "description": "A corpse within close range answers your questions for 10 minutes. It knows only what it knew in life and must answer truthfully.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Death Curse",
+    "tier": 4,
+    "class": "Witch",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature you can see makes a CON save (DC 14) or is reduced to 0 HP at the start of its next turn. On a success, it takes 6d6 damage instead.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Animate Dead",
+    "tier": 4,
+    "class": "Witch",
+    "duration": "1 day",
+    "range": "Near",
+    "description": "You animate 1d4 corpses within near range as zombies or skeletons that obey your commands.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Gate",
+    "tier": 4,
+    "class": "Witch",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You tear open a rift summoning a powerful demon (LV equal to yours +2). It serves for 10 rounds before returning.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Pestilence",
+    "tier": 5,
+    "class": "Witch",
+    "duration": "1 week",
+    "range": "Close",
+    "description": "A supernatural plague spreads from one creature you touch (CON save DC 15 or infected). The disease spreads to anyone the creature touches unless they succeed the same save.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Apocalyptic Curse",
+    "tier": 5,
+    "class": "Witch",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "One creature has disadvantage on all rolls, takes 2d6 damage at the start of each of its turns, and cannot regain HP. Lasts until dispelled.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Healing Touch",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 1d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Holy Light",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A burst of radiant light fills a near-sized area. Undead and demons within take 1d6 radiant damage and have disadvantage on all rolls until the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Bless",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "Up to three creatures you can see gain +1 to attack rolls and saving throws for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Protection from Evil",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "Chaotic and demonic beings have disadvantage on attacks and hostile spellcasting checks against one creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Detect Evil",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You sense the presence and rough direction of evil, undead, or demonic creatures within far range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Light",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "An object you touch glows with bright light that fills a near area. Touch it again to end the spell.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sanctuary",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "1 round",
+    "range": "Close",
+    "description": "One creature you touch cannot be targeted by attacks for 1 round unless it attacks first.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Purify",
+    "tier": 1,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You purify all food, water, and air within close range, removing poison, disease, and curses.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cure Disease",
+    "tier": 2,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and remove one disease, poison, or curse afflicting it.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Hold Undead",
+    "tier": 2,
+    "class": "Priest of Light",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "Undead within near range make a WIS save (DC 12) or are paralyzed for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Restoration",
+    "tier": 2,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You remove one ability score penalty, condition (blinded, deafened, poisoned), or curse from a creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Shield of Faith",
+    "tier": 2,
+    "class": "Priest of Light",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "A shimmering divine field surrounds one creature you touch, granting +2 AC for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Consecrate",
+    "tier": 2,
+    "class": "Priest of Light",
+    "duration": "1 day",
+    "range": "Near",
+    "description": "You sanctify a near-sized area. Undead and demons entering it take 1d6 radiant damage each round they remain inside.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Healing",
+    "tier": 3,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to four creatures within near range each recover 2d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Exorcism",
+    "tier": 3,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You expel a possessing entity, ghost, or demon from a creature or place. It makes a WIS save (DC 13) or is cast out and barred for 1 day.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sunburst",
+    "tier": 3,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A beam of brilliant holy light strikes all undead and demons within a near-sized area, each taking 4d6 radiant damage. Living creatures are unharmed.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Commune",
+    "tier": 3,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You ask your deity three yes or no questions. The GM answers truthfully.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Resurrection",
+    "tier": 4,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You restore a dead creature to life. It returns with 1 HP. Cannot restore those dead more than 1 week or whose bodies are destroyed.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Holy Aura",
+    "tier": 4,
+    "class": "Priest of Light",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "All creatures you choose within near range gain +4 AC, advantage on saves, and immunity to charm and fear for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Banish Demon",
+    "tier": 4,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One demon or devil within near range makes a WIS save (DC 14) or is instantly returned to its plane of origin and barred for 1 year.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Miracle",
+    "tier": 5,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Self",
+    "description": "You petition your deity. One impossible thing happens \u2014 a creature restored to full HP, a curse lifted from a region, or a question answered. GM's discretion.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Divine Wrath",
+    "tier": 5,
+    "class": "Priest of Light",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "Blazing holy fire rains on a near-sized area within far range. All creatures take 8d6 radiant damage. Undead and demons take double.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Dark Healing Touch",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature (including undead) and restore 1d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cause Fear",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature within near range makes a WIS save (DC 12) or flees from you for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Darkness",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "You snuff all light in a near-sized area for the duration. Creatures within cannot see anything.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Deathly Touch",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "A chill passes into a creature you touch. It makes a CON save (DC 12) or takes 1d6 necrotic damage and cannot regain HP until the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sense Evil",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You detect the presence and location of evil, undead, and demonic creatures within far range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Curse",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "One creature makes a WIS save (DC 12) or takes -2 to all rolls for 1 hour.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Animate Corpse",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You animate one nearby corpse as a skeleton or zombie that follows simple commands.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Unholy Presence",
+    "tier": 1,
+    "class": "Priest of Darkness",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "Creatures of 1 HD or fewer that can see you must make a WIS save (DC 12) or be frightened and unable to approach you.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wither",
+    "tier": 2,
+    "class": "Priest of Darkness",
+    "duration": "1 day",
+    "range": "Near",
+    "description": "One creature makes a CON save (DC 12) or one ability score of your choice is reduced by 2 for 1 day.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Speak with Dead",
+    "tier": 2,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You call the spirit of a nearby corpse. It answers up to three questions truthfully before departing.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Darkness Wave",
+    "tier": 2,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A wave of supernatural darkness rolls outward from you. All non-undead, non-demon creatures within near range take 2d6 damage and are blinded for 1 round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Bone Cage",
+    "tier": 2,
+    "class": "Priest of Darkness",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "Bones erupt from nearby remains and cage one creature within near range. It makes a STR save (DC 12) or is restrained for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Death's Embrace",
+    "tier": 2,
+    "class": "Priest of Darkness",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "You touch a willing creature. It appears and registers as dead to all magical detection and mundane examination for 1 hour.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Slay Living",
+    "tier": 3,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One living creature makes a CON save (DC 13) or takes 4d6 necrotic damage. If slain, it rises immediately as a zombie under your control.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Fear",
+    "tier": 3,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All living creatures within a near-sized area make a WIS save (DC 12) or flee in terror for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Control Undead",
+    "tier": 3,
+    "class": "Priest of Darkness",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "You seize control of up to 1d6 undead within near range. They obey your commands for 1 hour, then revert.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Pestilence",
+    "tier": 3,
+    "class": "Priest of Darkness",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "One creature you touch makes a CON save (DC 13) or contracts a supernatural wasting disease. It takes 1d6 necrotic damage per hour and cannot recover HP until cured.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Death Spell",
+    "tier": 4,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to 2d4 HD of living creatures within near range must make CON saves (DC 14) or die, targeting weakest first.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Bone Golem",
+    "tier": 4,
+    "class": "Priest of Darkness",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You animate a mass of bones into a powerful construct. It has HP equal to 4 times your level, deals 2d6 damage per strike, and obeys your commands.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Lich Touch",
+    "tier": 4,
+    "class": "Priest of Darkness",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "One creature you touch makes a CON save (DC 14) or begins to wither, losing 1d6 HP per round and unable to recover HP while focused.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Apocalypse",
+    "tier": 5,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A wave of necrotic death washes over a near-sized area within far range. All living creatures take 8d6 necrotic damage. Those slain rise immediately as zombies under your control.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "True Death",
+    "tier": 5,
+    "class": "Priest of Darkness",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a CON save (DC 15) or is slain outright. Its body crumbles to dust, preventing any form of resurrection.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Healing Herbs",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You call upon nature to heal. One creature you touch recovers 1d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Entangle",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "5 rounds",
+    "range": "Near",
+    "description": "Vines and roots erupt in a close-sized area within near range. All creatures inside make a STR save (DC 12) or are restrained.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Speak with Animals",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You communicate freely with natural animals within near range for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Thunderclap",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "A crack of thunder shakes the air. All creatures within close range (except yourself) take 1d4 damage and are deafened for 1 round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Barkskin",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "One creature you touch gains +2 AC as their skin hardens like bark.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Pass Without Trace",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You and up to four willing creatures leave no tracks, scent, or sound. Advantage on stealth checks for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Faerie Fire",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "Objects and creatures in a near-sized area glow with dim light. Affected creatures cannot benefit from invisibility, and attack rolls against them have advantage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Animal Form",
+    "tier": 1,
+    "class": "Druid",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You transform into any natural animal up to wolf-sized. You retain your WIS but otherwise use the animal's stats.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Summon Animal",
+    "tier": 2,
+    "class": "Druid",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "A loyal natural animal (wolf, bear, eagle, or boar) of your choice appears within close range and fights alongside you.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Call Lightning",
+    "tier": 2,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "Clouds gather and lightning strikes one creature within far range for 2d6 damage. You can call one bolt per round while focusing.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cure Disease",
+    "tier": 2,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You remove one disease, poison, or curse from a creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Warp Wood",
+    "tier": 2,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Wood within near range twists and warps. Wooden weapons deal -1 damage, wooden doors burst or jam, wooden structures crack.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Stone Shape",
+    "tier": 2,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You reshape a near-sized volume of stone however you wish \u2014 open a passage, seal a door, or raise a low wall.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Call of the Wild",
+    "tier": 3,
+    "class": "Druid",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "1d6 natural animals of appropriate size appear and fight for you for 1 hour.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Earthquake",
+    "tier": 3,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "The ground shakes in a far-sized area. All creatures on the ground make a DEX save (DC 13) or fall prone. Structures crack; tunnels may collapse.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Wind Wall",
+    "tier": 3,
+    "class": "Druid",
+    "duration": "Focus",
+    "range": "Far",
+    "description": "A wall of howling wind stretches near in length. Ranged attacks through it automatically miss. Flying creatures must make STR saves (DC 12) or be blown away.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Control Weather",
+    "tier": 3,
+    "class": "Druid",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You alter the weather in a mile-wide area for 1 hour \u2014 call rain, clear skies, fog, strong wind, or light snow.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Cure",
+    "tier": 4,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to four creatures within near range each recover 3d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Creeping Doom",
+    "tier": 4,
+    "class": "Druid",
+    "duration": "5 rounds",
+    "range": "Far",
+    "description": "A writhing mass of insects fills a near-sized area within far range. All creatures inside take 4d6 damage per round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Greater Animal Form",
+    "tier": 4,
+    "class": "Druid",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You transform into any natural animal up to elephant-sized. You retain your WIS and may revert and re-transform freely within the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Nature's Wrath",
+    "tier": 5,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Far",
+    "description": "A pillar of primal energy erupts in a near-sized area within far range. All creatures take 8d6 damage. Plants and animals in the area are unharmed and enraged against anything that survived.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Reincarnate",
+    "tier": 5,
+    "class": "Druid",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You restore a dead creature to life in a new body \u2014 a random humanoid ancestry determined by the GM. Returns with full HP and no memories of death.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sense Minds",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You sense the presence and rough emotions of all thinking creatures within near range. You know if they are hostile, afraid, or calm.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Read Aura",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You read one creature's aura. Learn their general power level, alignment, and whether they bear any active magical or psionic effects.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Commune with Dead",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You sense and speak with a nearby spirit or ghost. It may answer up to three questions truthfully before departing.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Resist Psychic",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You steel your mind. Advantage on saves against psionic attacks, charm, possession, and mind control for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Detect Deception",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "You know when a creature within close range intentionally lies for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Alarm",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "1 day",
+    "range": "Close",
+    "description": "You attune to a room or object within close range. You instantly know when a creature enters the room or touches the object.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sixth Sense",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You sense danger moments before it arrives. You cannot be surprised, and you have advantage on the first attack roll or save each round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Object Read",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch an object and receive impressions of its recent history \u2014 who held it, strong emotions, and major events in its presence.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sense Supernatural",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You detect supernatural entities (ghosts, demons, undead, and beings of magic) within far range and know their direction and distance.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Shield",
+    "tier": 1,
+    "class": "Psychic Sensitive",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "Other creatures cannot read your thoughts, detect your presence psionically, or sense your aura while this is active.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telepathy",
+    "tier": 2,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You read the surface thoughts of one creature within near range. Each round you focus, the GM tells you its immediate thoughts.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Clairvoyance",
+    "tier": 2,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You see and hear through a point you can visualize within 1 mile, as if standing there invisibly.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Link",
+    "tier": 2,
+    "class": "Psychic Sensitive",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "You form a silent telepathic bond with up to three willing creatures. You may communicate wordlessly with them at any range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Blast",
+    "tier": 2,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A wave of psychic force strikes one creature for 2d6 psychic damage. It makes a WIS save (DC 12) or is stunned until the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Astral Projection",
+    "tier": 2,
+    "class": "Psychic Sensitive",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "Your spirit leaves your body and travels invisibly up to 1 mile. You see and hear normally but cannot interact physically. Your body is defenseless while projected.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Domination",
+    "tier": 3,
+    "class": "Psychic Sensitive",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "One humanoid of LV 4 or less makes a WIS save (DC 13) or is under your mental command for 1 hour. It won't harm itself.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Group Mind",
+    "tier": 3,
+    "class": "Psychic Sensitive",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "You link up to eight willing creatures in a shared mental network. All share sensory information and can communicate instantly.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psionic Scream",
+    "tier": 3,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A wave of psychic agony radiates from you. All creatures within near range take 3d6 psychic damage and are stunned for 1 round (WIS save DC 12 halves damage and negates stun).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Precognition",
+    "tier": 3,
+    "class": "Psychic Sensitive",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You experience flashes of the immediate future. You cannot be surprised and have advantage on the first attack roll or save each round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Domination",
+    "tier": 4,
+    "class": "Psychic Sensitive",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "Up to 1d4 humanoids of LV 4 or less within near range each make a WIS save (DC 14) or come under your mental control.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Crush",
+    "tier": 4,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You assault one creature's mind with devastating force. It takes 6d6 psychic damage and makes a WIS save (DC 14) or is incapacitated for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Possession",
+    "tier": 4,
+    "class": "Psychic Sensitive",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "One creature makes a WIS save (DC 14) or you control its body for 1 hour. Your own body collapses unconscious while possessing.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Total Mind Wipe",
+    "tier": 5,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a WIS save (DC 15) or all memories of a subject of your choice are permanently erased.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Psionic Assault",
+    "tier": 5,
+    "class": "Psychic Sensitive",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All creatures within a near-sized area take 8d6 psychic damage and make a WIS save (DC 15) or are incapacitated for 1d4 rounds.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Healing Touch",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 1d6 HP through focused psionic energy.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Deaden Pain",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "One creature you touch cannot feel pain for 1 hour. They are immune to pain penalties and can act normally even at 0 HP until the spell ends (then collapse).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Diagnosis",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and instantly know their current HP, any diseases, poisons, or curses affecting them, and whether they are near death.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Empathy",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You send calming psychic energy to one creature within near range. It immediately loses the frightened, charmed, or berserk condition.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Stabilize",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a dying creature at 0 HP. It immediately stabilizes and no longer loses HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cleanse Poison",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You remove one poison or disease from a creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Boost",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "One creature you touch gains advantage on STR, DEX, or CON checks (your choice) for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Bandage",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "Wounds on a creature you touch close visibly. They recover 1d4 HP now and 1d4 HP at the start of your next turn.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Pain Strike",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You project agony into one creature within near range. It takes 1d6 psychic damage and has disadvantage on its next attack roll (CON save DC 12 negates disadvantage).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Share Sense",
+    "tier": 1,
+    "class": "Psi-Healer",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "You link your senses to a willing creature you touch. You see and hear through them (and they through you) for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Greater Healing",
+    "tier": 2,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 2d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cure Paralysis",
+    "tier": 2,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You restore full movement to one paralyzed, restrained, or slowed creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Empathy",
+    "tier": 2,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All creatures within near range that you choose immediately lose one negative condition (frightened, charmed, or enraged).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Surgery",
+    "tier": 2,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You perform rapid mental healing. Remove one of: broken bone, internal injury, blindness, deafness, or a non-magical disease from a creature you touch.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Trauma Shield",
+    "tier": 2,
+    "class": "Psi-Healer",
+    "duration": "5 rounds",
+    "range": "Close",
+    "description": "One creature you touch cannot drop below 1 HP for the duration. Damage that would reduce them below 1 HP is negated instead.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Healing",
+    "tier": 3,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to four creatures within near range each recover 2d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Restoration",
+    "tier": 3,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and remove all conditions, curses, poisons, and diseases affecting it.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Regenerate",
+    "tier": 3,
+    "class": "Psi-Healer",
+    "duration": "10 rounds",
+    "range": "Close",
+    "description": "One creature you touch regains HP equal to your level at the start of each of their turns for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Resurrect",
+    "tier": 3,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You restore a recently dead creature (dead less than 1 hour) to life. They return at 1 HP on a successful CHA check (DC 13).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Full Restoration",
+    "tier": 4,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and fully restore their HP, remove all conditions, and end all curses and diseases.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Restoration",
+    "tier": 4,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to four creatures within near range recover 3d6 HP each and are freed of all conditions, poisons, and diseases.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sever Pain",
+    "tier": 4,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You project psionic agony into one creature. It takes 4d6 psychic damage and is incapacitated with pain for 1d4 rounds (CON save DC 14 negates incapacitation).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "True Resurrection",
+    "tier": 5,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You restore a dead creature to life with full HP, regardless of how long they have been dead or the condition of their remains.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Full Restoration",
+    "tier": 5,
+    "class": "Psi-Healer",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All allies within near range are restored to full HP and freed of all conditions, curses, and diseases.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sense Evil",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You detect the presence and rough location of evil-aligned beings, undead, and demons within far range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Sixth Sense",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "10 rounds",
+    "range": "Self",
+    "description": "You sense danger moments before it arrives. You cannot be surprised and have advantage on initiative rolls for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "See Aura",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You read one creature or object's aura: power level, alignment, active magic or psionic effects, and emotional state.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Block",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "Creatures cannot read your thoughts, detect your presence psionically, or sense your aura while this is active.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Commune with Spirit",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You speak with a ghost or spirit within near range. It must answer three questions to the best of its knowledge, then departs.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Meditation",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "10 minutes",
+    "range": "Self",
+    "description": "You enter focused meditation for 10 minutes. Recover one expended spell slot and gain advantage on your next WIS or CHA check.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Healing Touch",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 1d4 HP through psionic focus.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Resist Magic",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "You grant yourself or one creature you touch resistance to one school of magic (choose when casting). Treat affected spells as dealing half damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Astral Sense",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You extend your senses into the astral plane, seeing astral entities, auras, and magical constructs overlaid on the physical world.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Detect Psionic",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You sense whether any creature within near range has psionic ability, and roughly how powerful.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Empathic Reading",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "1 minute",
+    "range": "Close",
+    "description": "By spending one minute near a creature, you learn its general emotional state, whether it is lying, and one dominant thought or concern.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Object Sense",
+    "tier": 1,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch an object and receive impressions of its recent history \u2014 significant events, strong emotions, who last held it.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telepathy",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You read the surface thoughts of one creature within near range. Each round you focus, the GM tells you its immediate thoughts.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Exorcism",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You expel a possessing entity or spirit from a creature or place. It makes a WIS save (DC 12) or is cast out.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Blast",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A psionic shockwave strikes one creature for 2d6 psychic damage. It makes a WIS save (DC 12) or is stunned for 1 round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Clairvoyance",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "You see and hear through any point you can visualize within 1 mile, as if standing there invisibly.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Link",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "You form a silent mental bond with up to three willing creatures, communicating wordlessly at any range.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Banish Spirit",
+    "tier": 2,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One ghost, spirit, or ethereal entity within near range makes a WIS save (DC 13) or is expelled to the afterlife or its plane of origin.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Sense",
+    "tier": 3,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You read the aura and surface thoughts of all creatures within near range simultaneously.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Plane Shift",
+    "tier": 3,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You and one willing creature you touch are transported to the astral plane or back to the physical plane.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Greater Exorcism",
+    "tier": 3,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You can expel possessing entities from up to your level in creatures simultaneously. Each makes a WIS save (DC 13) or the entity is expelled.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psionic Shield",
+    "tier": 3,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "A protective psionic field surrounds one creature you touch, granting +4 AC and advantage on saves against magic and psionics.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Soul Sense",
+    "tier": 4,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You read the deepest nature of one creature within close range \u2014 its true alignment, secret fears, hidden agenda, and most guarded memory. No save.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Astral Fortress",
+    "tier": 4,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You create a psionic barrier in a near-sized area. No psionic or magical effect can penetrate it while you focus.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Banishment",
+    "tier": 4,
+    "class": "Psi-Mystic",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "All spirits, ghosts, and ethereal entities within near range make WIS saves (DC 14) or are immediately expelled.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Cosmic Sight",
+    "tier": 5,
+    "class": "Psi-Mystic",
+    "duration": "1 round",
+    "range": "Self",
+    "description": "You see all things simultaneously \u2014 all creatures within 1 mile, their auras, intentions, and hidden truths. During this round you cannot be deceived, surprised, or caught unaware.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Soul Anchor",
+    "tier": 5,
+    "class": "Psi-Mystic",
+    "duration": "Focus",
+    "range": "Close",
+    "description": "You bind a dying creature's spirit. It cannot depart until you release it or the spell ends. The creature remains at -1 HP and cannot die while anchored.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Bolt",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A focused burst of mental force strikes one creature within near range for 1d6 psychic damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telekinetic Push",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You hurl one object or creature psionically. Objects up to 50 lbs fly near in any direction. Creatures make a STR save (DC 12) or are pushed near and knocked prone.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Block",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Focus",
+    "range": "Self",
+    "description": "Creatures cannot read your thoughts, sense your presence psionically, affect you with charm, or attempt possession while this is active.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "See Aura",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You read one creature or object's aura: power level, alignment, emotional state, and any active magical or psionic effects.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psionic Sense",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You detect whether any creature within near range has psionic ability and roughly how powerful it is.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Meditation",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "10 minutes",
+    "range": "Self",
+    "description": "You center yourself in 10 minutes of focus. Recover one expended spell slot and clear your mind of confusion, charm, or fear.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telekinetic Lift",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You lift one object within near range weighing up to 100 lbs and hold it aloft, moving it a close distance per round while focused.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Empathic Link",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You form a brief psychic connection with one creature within close range. You sense its precise emotional state and whether it is hiding something.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Healing Touch",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You touch a creature and restore 1d4 HP through focused psionic energy.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Alter Aura",
+    "tier": 1,
+    "class": "Mind Mage",
+    "duration": "1 hour",
+    "range": "Self",
+    "description": "You mask your true aura from psychic detection. You may appear to be any alignment, any psionic strength, or entirely mundane.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telepathy",
+    "tier": 2,
+    "class": "Mind Mage",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You read the surface thoughts of one creature within near range. Each round you focus, the GM tells you its immediate thoughts.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telekinetic Grip",
+    "tier": 2,
+    "class": "Mind Mage",
+    "duration": "Focus",
+    "range": "Near",
+    "description": "You seize one creature within near range in a psionic vice. It makes a STR save (DC 12) or is restrained for the duration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psychic Blast",
+    "tier": 2,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "A psionic shockwave strikes one creature for 2d6 psychic damage. It makes a WIS save (DC 12) or is stunned for 1 round.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psi-Sword",
+    "tier": 2,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Close",
+    "description": "You manifest a blade of psionic force. It ignores physical armor (treat target as AC 10) and deals 1d8 + your CHA modifier damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Minor Mind Control",
+    "tier": 2,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature of LV 2 or less makes a WIS save (DC 12) or follows a simple verbal command (one action).",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telekinetic Barrage",
+    "tier": 3,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You hurl up to four objects within near range simultaneously, each striking a different target for 1d6 damage each.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Domination",
+    "tier": 3,
+    "class": "Mind Mage",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "One humanoid of LV 4 or less makes a WIS save (DC 13) or is under your mental command for 1 hour. It won't harm itself.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Healing",
+    "tier": 3,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "Up to four creatures within near range each recover 2d6 HP through psionic restoration.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Psionic Drain",
+    "tier": 3,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You drain psionic or magical energy from one creature. It loses one spell slot (or equivalent) and you recover 1d6 HP.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Possess",
+    "tier": 4,
+    "class": "Mind Mage",
+    "duration": "1 hour",
+    "range": "Close",
+    "description": "One creature makes a WIS save (DC 14) or you control its body for 1 hour. Your body collapses unconscious while possessing.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Telekinetic Storm",
+    "tier": 4,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "You hurl everything in the environment at creatures in a near-sized area. All creatures inside take 4d6 damage.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mass Mind Control",
+    "tier": 4,
+    "class": "Mind Mage",
+    "duration": "10 rounds",
+    "range": "Near",
+    "description": "Up to 1d4 humanoids of LV 4 or less within near range each make a WIS save (DC 14) or are under your mental command.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Mind Wipe",
+    "tier": 5,
+    "class": "Mind Mage",
+    "duration": "Instant",
+    "range": "Near",
+    "description": "One creature makes a WIS save (DC 15) or all memories of a period or subject of your choice are permanently erased.",
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Total Domination",
+    "tier": 5,
+    "class": "Mind Mage",
+    "duration": "1 hour",
+    "range": "Near",
+    "description": "Up to six creatures you can see within near range each make a WIS save (DC 15) or fall under your mental control for 1 hour.",
+    "source": "Palladium Fantasy 2nd Ed."
+  }
 ]
