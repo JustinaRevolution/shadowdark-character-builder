@@ -64,6 +64,7 @@ export default function App() {
   const filteredAncestries = filterBySource(ancestries, setting)
   const filteredClasses = filterBySource(classes, setting)
   const filteredAlignments = filterBySource(ALL_ALIGNMENTS, setting)
+  const filteredBackgrounds = filterBySource(backgrounds, setting)
 
   const isCaster = !!character.characterClass?.spellcasting
   const visibleSteps = ALL_STEPS.filter(s => s.key !== 'spells' || isCaster)
@@ -124,7 +125,7 @@ export default function App() {
       case 'background':
         return (
           <BackgroundStep
-            backgrounds={backgrounds}
+            backgrounds={filteredBackgrounds}
             alignments={filteredAlignments}
             selectedBackground={character.background}
             selectedAlignment={character.alignment}
