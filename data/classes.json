@@ -970,5 +970,185 @@
     "spells_known_at_creation": 4,
     "starting_gear": ["two sets of clothing", "expensive cloak or cape", "expensive leather boots", "belt", "blanket", "backpack", "2 medium-sized sacks", "6 small sacks", "water skin", "1 week of food rations", "pocket mirror", "tin of snuff", "tinderbox", "studded leather armor"],
     "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Merchant",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "hard leather"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "clubs", "staves", "crossbows"],
+    "class_features": [
+      {
+        "name": "Silver Tongue",
+        "description": "You have made a living by talking people into and out of things. You have advantage on all persuasion, negotiation, and haggling rolls. When purchasing goods or services in a settlement, you can always find a better price — reduce the cost of any transaction by 10-25% (GM's discretion based on your approach and the seller's situation). Hostile NPCs who would otherwise attack may take a moment to hear your offer first."
+      },
+      {
+        "name": "Appraise",
+        "description": "You can estimate the true market value of any item — weapons, armor, art, gems, or magical goods — with a glance and a moment's handling. You can detect fakes, forgeries, and inferior quality goods automatically. For magic items, you can tell whether an item has value or not, though not its specific properties without magical identification."
+      },
+      {
+        "name": "Trade Network",
+        "description": "Merchants know merchants. In any town or city, you can locate a trade contact within 1d4 hours — someone who will deal fairly with you, provide market information, offer lodging in exchange for future business, or vouch for your character to local authorities. These contacts are not loyal allies, but they are reliable business acquaintances."
+      },
+      {
+        "name": "Risk Assessment",
+        "description": "A lifetime of evaluating deals has made you sharp about when something is too good to be true. Before entering a negotiation, dungeon room, or dangerous situation you can assess, you may ask the GM one practical question: 'Is this a trap?', 'How many guards?', 'Is this person lying?' The GM must answer honestly based on what your merchant's instincts could realistically detect."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your trade network now includes a powerful fence, a city official, or a noble patron — one contact who can pull significant strings once per adventure"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "You begin each adventure with an additional 2d6 x 10 gold from a successful recent deal"},
+      {"roll": "10-11", "effect": "Your Silver Tongue now works on creatures that can understand language, including monsters with INT 8 or higher — a breath of negotiation before combat"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "boots", "hat", "belt", "blanket", "backpack", "large sack", "4 small sacks", "water skin", "bottle of wine", "1 week of food rations", "notebook", "2 quill pens", "bottle of ink", "small lantern", "tinderbox", "hard leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Noble",
+    "hit_die": "d8",
+    "armor_proficiencies": ["leather armor", "studded leather", "chain mail", "scale mail", "plate armor", "shields"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "long swords", "spears", "clubs", "crossbows", "short bows"],
+    "class_features": [
+      {
+        "name": "Noble Authority",
+        "description": "Your bearing, name, and manner command respect. Commoners, city guards, merchants, and most NPCs treat you with automatic deference — you can issue commands, demand access, or bluff your way past obstacles that would stop anyone else. Once per session, you can invoke your family name or title to compel a non-hostile NPC of lesser social standing to comply with a reasonable request without requiring a roll."
+      },
+      {
+        "name": "Educated",
+        "description": "You received a thorough education in history, politics, languages, heraldry, and the arts. You can read and write all common languages fluently. You have advantage on INT checks involving history, noble lineages, politics, law, or cultural knowledge. You can identify any noble house, faction banner, or heraldic symbol in the known world."
+      },
+      {
+        "name": "Family Connections",
+        "description": "Your family has reach. Once per session, you can call on family resources: a letter of introduction to a powerful figure, access to a safe house, a loan of equipment worth up to 200 gold, or information only available to the noble class. These favors are not free — the GM may introduce obligations, expectations, or complications that come with accepting family help."
+      },
+      {
+        "name": "Courtly Bearing",
+        "description": "Years of court life have made you fluent in the language of status. You receive +2 to all social interactions with nobility, wealthy merchants, clergy, and government officials. You are never turned away from a meeting, audience, or establishment due to social standing alone. Conversely, the common rabble may view you with suspicion or resentment."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your family connections can now be invoked twice per session, and one connection reaches into the royal court, a major temple, or the wizard's guild"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Your Noble Authority now works on creatures of INT 10 or higher that understand social hierarchy — even some monsters will hesitate before a commanding presence"},
+      {"roll": "10-11", "effect": "+2 to all saves vs charm, fear, and social manipulation; your bearing makes you nearly impossible to cow or intimidate"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["set of fine traveling clothes", "set of fine court clothes", "boots", "pair of gloves", "cloak or cape", "hat", "belt", "tent", "purse", "backpack", "3 small sacks", "water skin", "bottle of fine wine or brandy", "pocket mirror", "comb", "tin of snuff", "tinderbox", "chain mail"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Scholar",
+    "hit_die": "d4",
+    "armor_proficiencies": ["leather armor", "hard leather"],
+    "weapon_proficiencies": ["daggers", "knives", "clubs", "staves", "crossbows"],
+    "class_features": [
+      {
+        "name": "Voracious Reader",
+        "description": "Given time and access, you can read any written language — including dead languages, ancient scripts, and most runic or symbolic writing systems. You have advantage on all INT checks to recall lore about history, science, religion, geography, and natural philosophy. When the party encounters any text — inscription, scroll, book, or rune — you are the one who reads it."
+      },
+      {
+        "name": "Monster Lore",
+        "description": "You have studied extensively about the creatures of the world. Before combat with any creature you can identify by sight, you may share one piece of tactical information with your party: a vulnerability, a behavioral pattern, an immunity, or a weakness. This grants the party +1 to attack rolls or saving throws against that creature type for the duration of the encounter."
+      },
+      {
+        "name": "Research",
+        "description": "Given access to a library, archives, or a sufficiently stocked sage's study, you can find answers to almost any question about the known world within 1d4 hours. You can also learn by fieldwork: spending 10 minutes examining a ruin, artifact, or scene of supernatural activity and making an INT check (DC 10) gives you a useful observation the GM must honor."
+      },
+      {
+        "name": "Quick Identification",
+        "description": "When the party finds a magic item, ancient relic, or unusual substance, your broad knowledge base lets you make an educated assessment. You can identify one property of any found item — its general purpose, school of magic, or likely origin — without magical means or a roll. For a full identification, you need a library or 1 hour of careful examination."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your Monster Lore now applies to any creature you have encountered before — the bonus increases to +2 for creatures you have fought at least once previously"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "You can now fully identify a magic item's properties given 10 minutes of study, no library required"},
+      {"roll": "10-11", "effect": "+2 to all INT checks; your encyclopedic knowledge now includes basic magical theory — you can attempt to read scrolls as a Wizard (DC 14 INT check, failure causes a mishap)"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "boots", "hat", "belt", "bedroll", "backpack", "large sack", "4 small sacks", "water skin", "1 week of food rations", "4 sticks of charcoal or graphite", "2 crow quill pens", "bottle of ink", "4 sheets of parchment", "100-page note and sketch book", "small mirror", "tinderbox", "hard leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Squire",
+    "hit_die": "d8",
+    "armor_proficiencies": ["leather armor", "studded leather", "chain mail", "scale mail", "plate armor", "shields"],
+    "weapon_proficiencies": ["daggers", "knives", "short swords", "long swords", "spears", "lances", "clubs", "staves", "crossbows", "short bows"],
+    "class_features": [
+      {
+        "name": "Knightly Training",
+        "description": "You were trained in the arts of combat and mounted warfare alongside knights. You suffer no penalties wearing any type of armor, including full plate. You are proficient in mounted combat — you can fight effectively on horseback, and a horse under you adds your level to its S.D.C. (it fights harder for you). You can maintain and repair armor and weapons with minimal tools during a short rest."
+      },
+      {
+        "name": "Code of Chivalry",
+        "description": "You live by the knightly virtues of honor, valor, and loyalty. Once per encounter, you can issue a formal challenge to one enemy within 30 feet. Honor-bound creatures (those with a code, intelligence, and pride) must make a WIS save (DC 12) or focus their attacks exclusively on you for 1d4 rounds. Beasts and mindless undead are immune. Additionally, you have +2 to saves against horror factor."
+      },
+      {
+        "name": "Heraldic Knowledge",
+        "description": "You can identify any noble house, military banner, knightly order, or faction insignia on sight. You know the ranks, protocols, and chain of command in any military or noble hierarchy you encounter. This lets you navigate official situations, know who to address, and identify friend from foe by livery alone. Nobles and knights of any alignment treat you as a peer."
+      },
+      {
+        "name": "Arms & Armor Expertise",
+        "description": "You can assess the quality of any weapon or piece of armor on sight — you know if it is masterwork, standard, or inferior, and whether it is enchanted (though not how). Given 10 minutes and a fire, you can perform field repairs on damaged armor, restoring 1d6 points of armor durability per rest. You can also identify the fighting style of an opponent within one round of combat."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your Code of Chivalry challenge now affects any creature with INT 6 or higher; the duration increases to 1d6 rounds and the save DC increases to 14"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "+1 to all attack and damage rolls; your training has sharpened into genuine martial skill"},
+      {"roll": "10-11", "effect": "+2 to saves vs horror factor, fear, and mind control; your knightly resolve makes you exceptionally hard to break"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "boots", "pair of gloves", "belt", "bedroll", "backpack", "2 large sacks", "2 small sacks", "water skin", "tinderbox", "small shield", "chain mail"],
+    "source": "Palladium Fantasy 2nd Ed."
+  },
+  {
+    "name": "Vagabond",
+    "hit_die": "d6",
+    "armor_proficiencies": ["leather armor", "hard leather", "studded leather"],
+    "weapon_proficiencies": ["daggers", "knives", "hand axes", "short swords", "clubs", "staves", "crossbows", "short bows", "slings"],
+    "class_features": [
+      {
+        "name": "Survivor's Instincts",
+        "description": "A life on the road has made you exceptionally hard to kill. You have advantage on CON saves against disease, poison, and environmental hazards. You never suffer exhaustion from weather, travel pace, or lack of proper food and water unless conditions are truly extreme. When you drop to 0 HP for the first time in an encounter, you may immediately make a CON save (DC 12) to stabilize at 1 HP instead."
+      },
+      {
+        "name": "Scrounger",
+        "description": "You have an uncanny ability to find useful things in unlikely places. Given 1 hour in any populated area, ruin, or even wilderness, you can scrounge 1d4 useful items from the following categories: rope, torches, lantern, food rations, coins (1d6 x 5 copper), basic tools, animal feed, or similar mundane goods. In a dungeon or ruins, you find these things on corpses, in forgotten corners, and behind collapsed walls others walk past."
+      },
+      {
+        "name": "Underworld Connections",
+        "description": "You know the underside of every settlement — the beggars, the criminals, the outcasts, and the desperate. In any town or city, you can locate a fence for stolen goods, a black market contact, or someone willing to sell information the authorities don't want shared within 1d4 hours. These contacts are loyal to coin, not to you, but they are reliably available."
+      },
+      {
+        "name": "Low Profile",
+        "description": "The plainest person in the room is never the most suspicious. You have advantage on stealth checks in urban environments — guards and officials instinctively overlook you. When disguised as a commoner, even magical detection has a 25% chance of missing you. Creatures and NPCs consistently underestimate you; this sometimes means enemies target other party members first."
+      }
+    ],
+    "talents_table": [
+      {"roll": "2", "effect": "Your Survivor's Instincts' emergency stabilization now works twice per encounter, and you automatically succeed on CON saves against common poisons and diseases"},
+      {"roll": "3-6", "effect": "+1d6 HP"},
+      {"roll": "7-9", "effect": "Your Scrounger ability now produces 2d4 items and works twice as fast; in ruins, you occasionally find items of real value (GM's discretion)"},
+      {"roll": "10-11", "effect": "+2 to all DEX checks and stealth rolls; your Low Profile now extends to rural and wilderness settings — you are simply unremarkable wherever you go"},
+      {"roll": "12", "effect": "Choose a talent or +2 points to distribute to stats"}
+    ],
+    "spellcasting": false,
+    "spell_stat": null,
+    "spells_known_at_creation": 0,
+    "starting_gear": ["two sets of clothing", "boots", "hat", "belt", "blanket", "backpack", "large sack", "4 small sacks", "water skin", "2 weeks of food rations", "tinderbox", "hard leather armor"],
+    "source": "Palladium Fantasy 2nd Ed."
   }
 ]
